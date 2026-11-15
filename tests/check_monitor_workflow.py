@@ -28,7 +28,8 @@ def main() -> None:
         "python3 -m dof_diff_lab.intelligence sync",
         "python3 -m dof_diff_lab.intelligence build",
         ".tmp/dof-corpus.sqlite3",
-        "git diff --quiet -- data site",
+        "git add -- data site",
+        "git diff --cached --quiet -- data site",
         "git commit -m",
         "if-no-files-found: error",
         "needs: [capture, publish]",
@@ -38,6 +39,9 @@ def main() -> None:
     assert "pull_request:" not in text
     assert 'publication_date="${{ inputs.publication_date }}"' not in text
     assert "data/raw" not in text
+    # New daily publication files start untracked; the no-op guard must inspect the index.
+    assert text.index("git add -- data site") < text.index("git diff --cached --quiet -- data site") < text.index("git commit -m")
+    assert "if git diff --quiet -- data site" not in text
     refs = re.findall(r"uses:\s*[^@\s]+@([^\s]+)", text)
     assert refs and all(re.fullmatch(r"[0-9a-f]{40}", ref) for ref in refs), refs
 
