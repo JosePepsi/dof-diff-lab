@@ -1,0 +1,46 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-17T11:47:40+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 7,
+      "aviso": 2,
+      "convenio": 1,
+      "otro": 7,
+      "sentencia": 1
+    },
+    "by_issuer": {
+      "BANCO DE MEXICO": 3,
+      "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO": 1,
+      "INSTITUTO NACIONAL DE ESTADISTICA Y GEOGRAFIA": 1,
+      "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL": 5,
+      "SECRETARIA DE CULTURA": 1,
+      "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES": 1,
+      "SECRETARIA DE SALUD": 1,
+      "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL": 1,
+      "SUPREMA CORTE DE JUSTICIA DE LA NACION": 1,
+      "TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA": 3
+    },
+    "by_topic": {
+      "financial": 1,
+      "health": 1,
+      "labor": 2,
+      "other": 14
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-17/matutina.json",
+  "normalized_sha256": "da87034d83208c9d5bc794eb0bf88a4250182f8964b9535836b891d19113c352",
+  "note_count": 18,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-17",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=17",
+    "raw_retained": false,
+    "raw_sha256": "7faf5b6ea2f66c705d003139fbfd4a7f0d4cbe4baa5c27285073067bb7a89a1e",
+    "raw_size": 79318
+  },
+  "status": "changed"
+}
