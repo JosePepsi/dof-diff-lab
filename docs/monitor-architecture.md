@@ -61,7 +61,7 @@ Repeated runs are idempotent. Existing normalized data for an edition is loaded 
 - `data/diffs/YYYY-MM-DD[-edition].md`: deterministic changes for human review.
 - `data/state/latest.json`: latest successful operational state.
 - `site/index.html`: generated static inspection view.
-- `.tmp/dof-corpus.sqlite3`: generated FTS database, kept as an Actions artifact and never committed.
+- `.tmp/dof-corpus.sqlite3`: local FTS database. GitHub Actions writes it to `tmp/dof-corpus.sqlite3` to include it in the run artifact. Both directories are ignored by Git.
 
 Raw DOF/SIDOF responses are not committed. Hashes and source metadata are retained where the capture path exposes them.
 
