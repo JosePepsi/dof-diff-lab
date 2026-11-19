@@ -1,0 +1,45 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-19T11:34:55+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 4,
+      "convenio": 1,
+      "decreto": 1,
+      "norma": 1,
+      "otro": 3,
+      "sentencia": 1
+    },
+    "by_issuer": {
+      "BANCO DE MEXICO": 3,
+      "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO": 1,
+      "INSTITUTO NACIONAL ELECTORAL": 1,
+      "PRESIDENCIA DE LA REPUBLICA": 1,
+      "SECRETARIA DE CIENCIA, HUMANIDADES, TECNOLOGIA E INNOVACION": 1,
+      "SECRETARIA DE GOBERNACION": 1,
+      "SECRETARIA DE INFRAESTRUCTURA, COMUNICACIONES Y TRANSPORTES": 1,
+      "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL": 1,
+      "SUPREMA CORTE DE JUSTICIA DE LA NACION": 1
+    },
+    "by_topic": {
+      "financial": 1,
+      "labor": 1,
+      "other": 9
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-19/matutina.json",
+  "normalized_sha256": "11894bdb57815fed174d2d2571360f8f2389639f21cb861befd246371b5f6fee",
+  "note_count": 11,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-19",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=19",
+    "raw_retained": false,
+    "raw_sha256": "1a8e32d2fb955fbf524c267b4b295879294434c660ed577f2dab2ea908264085",
+    "raw_size": 71424
+  },
+  "status": "changed"
+}

@@ -1,0 +1,332 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804310&fecha=19/11/2026",
+      "code": "5804310",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "PRESIDENCIA DE LA REPUBLICA",
+      "record_sha256": "1507e738d440facb30a41e1509404e73425cc31b34768e13261ce8529bc1119d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "decreto",
+          "name": "document_type",
+          "rule_id": "document_type.decreto",
+          "rule_version": "1.0",
+          "value": "decreto"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "adicionan",
+          "name": "signal",
+          "rule_id": "signal.possible_addition",
+          "rule_version": "1.0",
+          "value": "possible_addition"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "derogan",
+          "name": "signal",
+          "rule_id": "signal.possible_repeal",
+          "rule_version": "1.0",
+          "value": "possible_repeal"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley de Inversión Extranjera.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley de Inversión Extranjera."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804312&fecha=19/11/2026",
+      "code": "5804312",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "2319ab19510df13880e94411714db0e6d015ebb32e13b02c058bd8e0f5894f23",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Coordinación que celebran la Secretaría de Gobernación y el Sistema para el Desarrollo Integral de la Familia del Estado de Nuevo León, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre los usuarios del DIF Nuevo León.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran la Secretaría de Gobernación y el Sistema para el Desarrollo Integral de la Familia del Estado de Nuevo León, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre los usuarios del DIF Nuevo León."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804314&fecha=19/11/2026",
+      "code": "5804314",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE INFRAESTRUCTURA, COMUNICACIONES Y TRANSPORTES",
+      "record_sha256": "ecf1a44b99038ae5822aab16658f662b2d3fa35535df0a8dfed9cf7eae520a58",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "norma oficial mexicana",
+          "name": "document_type",
+          "rule_id": "document_type.norma",
+          "rule_version": "1.0",
+          "value": "norma"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se informa a los permisionarios de Autotransporte Federal de carga general y transporte privado de carga, los requisitos para obtener la aprobación de Autorregulación (Permisionario Responsable con el Cumplimiento de la Norma), establecido en la Norma Oficial Mexicana aplicable, los cuales podrán ser consultados en el micrositio de la Dirección General de Autotransporte Federal de la Secretaría de Infraestructura, Comunicaciones y Transportes.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se informa a los permisionarios de Autotransporte Federal de carga general y transporte privado de carga, los requisitos para obtener la aprobación de Autorregulación (Permisionario Responsable con el Cumplimiento de la Norma), establecido en la Norma Oficial Mexicana aplicable, los cuales podrán ser consultados en el micrositio de la Dirección General de Autotransporte Federal de la Secretaría de Infraestructura, Comunicaciones y Transportes."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804316&fecha=19/11/2026",
+      "code": "5804316",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE CIENCIA, HUMANIDADES, TECNOLOGIA E INNOVACION",
+      "record_sha256": "9ceac9e61f93e767b0f27784c022cd53511861d7905a457f437fcec3a25a0ac2",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se dan a conocer los días inhábiles y la suspensión de labores del periodo de diciembre 2026 a enero 2028, en el Centro de Investigaciones en Óptica, A.C.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se dan a conocer los días inhábiles y la suspensión de labores del periodo de diciembre 2026 a enero 2028, en el Centro de Investigaciones en Óptica, A.C."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804318&fecha=19/11/2026",
+      "code": "5804318",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL",
+      "record_sha256": "9b8cabb78a3969133ba298b3217c2b81d29ee4b2e7d50e73001a8d80540762b9",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se modifica el diverso por el que se establece el Proceso de Calidad Regulatoria en la Secretaría del Trabajo y Previsión Social.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se modifica el diverso por el que se establece el Proceso de Calidad Regulatoria en la Secretaría del Trabajo y Previsión Social."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804320&fecha=19/11/2026",
+      "code": "5804320",
+      "issuer_primary": "ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS",
+      "issuer_secondary": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO",
+      "record_sha256": "eac23b061e7b673bb4473d375f3d832cbc1f3aaac64eb446d206974290825f32",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "trabajadores",
+          "name": "topic",
+          "rule_id": "topic.labor",
+          "rule_version": "1.0",
+          "value": "labor"
+        }
+      ],
+      "title": "Acuerdo 16.1395.2026 mediante el cual la Junta Directiva del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado, aprobó el Programa de Vivienda para el Bienestar del FOVISSSTE y sus Lineamientos Generales."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804322&fecha=19/11/2026",
+      "code": "5804322",
+      "issuer_primary": "PODER JUDICIAL",
+      "issuer_secondary": "SUPREMA CORTE DE JUSTICIA DE LA NACION",
+      "record_sha256": "d6dcd1bf31fa5bdb21b2c3ead0192cb47e76235f66c56143c6683808bdfe0c3b",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "sentencia",
+          "name": "document_type",
+          "rule_id": "document_type.sentencia",
+          "rule_version": "1.0",
+          "value": "sentencia"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 37/2025, así como el Voto Concurrente de la señora Ministra Sara Irene Herrerías Guerra.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 37/2025, así como el Voto Concurrente de la señora Ministra Sara Irene Herrerías Guerra."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804324&fecha=19/11/2026",
+      "code": "5804324",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "b01c75561337035d26bdf3e539d71c358e8d0c2d0613643b4401b99eb9f45b0c",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804325&fecha=19/11/2026",
+      "code": "5804325",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "5f6a4b68c64bc3a761fe5c4a19870ba9d21f2e41c8af6a3a1b66c799e4685f14",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804326&fecha=19/11/2026",
+      "code": "5804326",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "fd162947911369fbb29a6adba9e514dceeb516d1ef9c434a2cf07446cd8f26d5",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804329&fecha=19/11/2026",
+      "code": "5804329",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "cd17b2ac4c58b163cc2303edc5950605f17f001f041f44df9194c52794434d5c",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral, por el que se aprueban los Lineamientos para la conformación de la Lista Nominal de Electores con Voto Anticipado para el Proceso Electoral Concurrente 2026-2027, y en las Elecciones Extraordinarias que de éste deriven.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral, por el que se aprueban los Lineamientos para la conformación de la Lista Nominal de Electores con Voto Anticipado para el Proceso Electoral Concurrente 2026-2027, y en las Elecciones Extraordinarias que de éste deriven."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=19",
+    "name": "DOF official index",
+    "publication_date": "2026-11-19"
+  }
+}
