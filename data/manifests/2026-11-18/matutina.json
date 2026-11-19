@@ -1,40 +1,20 @@
 {
   "edition": "matutina",
-  "generated_at": "2026-11-18T22:57:44+00:00",
+  "generated_at": "2026-11-19T03:32:35+00:00",
   "insights": {
     "by_document_type": {
-      "acuerdo": 11,
-      "aviso": 3,
-      "convenio": 1,
-      "decreto": 1,
-      "otro": 5,
-      "resolucion": 1,
-      "sentencia": 1
+      "decreto": 1
     },
     "by_issuer": {
-      "BANCO DE MEXICO": 3,
-      "INSTITUTO NACIONAL ELECTORAL": 1,
-      "ORGANO DE ADMINISTRACION JUDICIAL": 7,
-      "PRESIDENCIA DE LA REPUBLICA": 2,
-      "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL": 1,
-      "SECRETARIA DE CULTURA": 1,
-      "SECRETARIA DE GOBERNACION": 1,
-      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 1,
-      "SECRETARIA DE MARINA": 2,
-      "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES": 2,
-      "SECRETARIA DE SALUD": 1,
-      "SUPREMA CORTE DE JUSTICIA DE LA NACION": 1
+      "PRESIDENCIA DE LA REPUBLICA": 1
     },
     "by_topic": {
-      "environment": 1,
-      "financial": 2,
-      "health": 1,
-      "other": 19
+      "other": 1
     }
   },
   "normalized_path": "data/normalized/2026-11-18/matutina.json",
-  "normalized_sha256": "d9f0cde5b637aceda3eb1197c77392de871153bea08cdeef866c113407f54a61",
-  "note_count": 23,
+  "normalized_sha256": "07f56e6ae45cf8903a4c4d00641d9e10b41624a5b4f43523a76827f66f893e61",
+  "note_count": 1,
   "parser_version": "1.1",
   "publication_date": "2026-11-18",
   "schema_version": "1.1",
@@ -43,8 +23,8 @@
     "http_status": 200,
     "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=18",
     "raw_retained": false,
-    "raw_sha256": "e0ef0076cadc45bf5e052b39eb095799ddbb742bcb32fd03ee037608e00f35f5",
-    "raw_size": 88805
+    "raw_sha256": "6f52cdb88ac7aa1f91f3d628da6442fd0346c1a65603dcc8f51a358d41291e8d",
+    "raw_size": 50324
   },
-  "status": "no_change"
+  "status": "changed"
 }
