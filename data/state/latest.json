@@ -1,11 +1,8 @@
 {
-  "editions": [],
-  "manifests": [
-    "data/manifests/2026-11-16/matutina.json"
-  ],
-  "note_count": 0,
-  "publication_date": "2026-11-16",
-  "source_id": "sidof+dof_index",
-  "status": "no_edition",
-  "updated_at": "2026-11-20T20:52:16+00:00"
+  "edition": "matutina",
+  "manifest_path": "data/manifests/2026-11-20/matutina.json",
+  "normalized_sha256": "3dd166a0b955f1f79421a2bbdf0ea56d7ef36edfec379b42e7eb68e0bf3220a1",
+  "publication_date": "2026-11-20",
+  "status": "no_change",
+  "updated_at": "2026-11-20T22:41:30+00:00"
 }
