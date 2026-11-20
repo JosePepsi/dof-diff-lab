@@ -5,6 +5,7 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 import json
 from pathlib import Path
+import sys
 from typing import Callable
 
 from .calendar_mx import no_edition_basis
@@ -216,6 +217,20 @@ def sync_date(
         basis = no_edition_basis(publication_date)
         if sidof_error is None and basis is not None:
             return _write_confirmed_no_edition(publication_date, root, dof_response, basis)
+        # Diagnóstico para el registro de la corrida (stderr): por qué no se confirmó la ausencia.
+        print(
+            json.dumps(
+                {
+                    "diagnostico": "no_edition_no_confirmado",
+                    "fecha": publication_date.isoformat(),
+                    "base_sin_edicion": basis,
+                    "sidof_error": str(sidof_error) if sidof_error else None,
+                    "dof_http_status": dof_response.status,
+                },
+                ensure_ascii=False,
+            ),
+            file=sys.stderr,
+        )
         raise
     return {
         "status": result.status,
