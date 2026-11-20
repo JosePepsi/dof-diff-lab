@@ -131,6 +131,35 @@ def main() -> None:
         else:
             raise AssertionError("An empty SIDOF response must not hide a malformed weekday DOF response")
 
+    # Issue #3: no_edition evidence-based and fail-closed.
+    def confirmed(day: date, sidof) -> dict:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            result = sync_date(day, root, sidof_fetch=sidof, dof_fetch=lambda _u: SourceResponse(200, "text/html", GENERIC_SHELL))
+            manifest = json.loads((root / "data" / "manifests" / day.isoformat() / "matutina.json").read_text(encoding="utf-8"))
+            assert manifest["source"]["dof_raw_sha256"]
+            assert result["status"] == "no_edition"
+            return manifest["source"]
+
+    assert confirmed(date(2026, 11, 15), lambda _d: [])["no_edition_basis"] == "weekend"
+    assert confirmed(date(2026, 11, 16), lambda _d: [])["no_edition_basis"] == "holiday:Día de la Revolución"
+
+    def must_fail(day: date, sidof, dof=lambda _u: SourceResponse(200, "text/html", GENERIC_SHELL)) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            try:
+                sync_date(day, Path(directory), sidof_fetch=sidof, dof_fetch=dof)
+            except ParseError:
+                assert not (Path(directory) / "data").exists()
+            else:
+                raise AssertionError(f"{day} must fail closed")
+
+    must_fail(date(2026, 11, 17), lambda _d: [])  # dia habil con indice malformado
+    must_fail(date(2026, 11, 15), lambda _d: (_ for _ in ()).throw(OSError("network down")))  # SIDOF caido en fin de semana
+    must_fail(date(2026, 11, 16), lambda _d: (_ for _ in ()).throw(OSError("network down")))  # SIDOF caido en feriado
+    # Otro ParseError (nota duplicada) en feriado tampoco se acepta como no_edition.
+    dup = b"<html><body><p>Fecha: 16/11/2026 - Edicion Matutina</p><a href='https://dof.gob.mx/nota_detalle.php?codigo=1&fecha=16/11/2026'>A.</a><a href='https://dof.gob.mx/nota_detalle.php?codigo=1&fecha=16/11/2026'>A.</a></body></html>"
+    must_fail(date(2026, 11, 16), lambda _d: [], dof=lambda _u: SourceResponse(200, "text/html", dup))
+
 
 if __name__ == "__main__":
     main()

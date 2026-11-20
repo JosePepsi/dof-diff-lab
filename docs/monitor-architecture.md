@@ -54,6 +54,18 @@ GitHub Actions checks the publication day in three windows: 16:17, 22:17 and 03:
 
 Repeated runs are idempotent. Existing normalized data for an edition is loaded before writing and compared by stable note identity plus record hash. A legitimate absence is `no_edition`; malformed weekday responses and source failures remain errors.
 
+### Ausencia confirmada (`no_edition`)
+
+`no_edition` es un estado basado en evidencia y falla cerrado. Se confirma solo si se cumplen las tres condiciones:
+
+1. La consulta a SIDOF tuvo éxito (sin error) y devolvió cero notas.
+2. El índice del DOF falló únicamente con `NoRecognizableEditionError` (sin fecha ni edición reconocibles); cualquier otro `ParseError`, HTTP o MIME inesperado sigue siendo error.
+3. La fecha es fin de semana o feriado obligatorio según `dof_diff_lab/calendar_mx.py`.
+
+El manifiesto registra `source.no_edition_basis` (`weekend` o `holiday:<nombre>`), las URL consultadas y el SHA-256 de la respuesta del DOF. Un día hábil no feriado con índice malformado, o un error de red de SIDOF (incluso en fin de semana o feriado), termina en error. Si SIDOF o el índice traen notas en sábado, domingo o feriado (edición extraordinaria), se procesan normalmente.
+
+Feriados (Ley Federal del Trabajo, art. 74): 1 de enero; primer lunes de febrero; tercer lunes de marzo; 1 de mayo; 16 de septiembre; 1 de octubre cada seis años desde 2024 (transmisión del Poder Ejecutivo Federal); tercer lunes de noviembre; 25 de diciembre. Origen: el monitor falló del 14 al 17 de noviembre de 2026 (el 16 fue feriado); ver issue #3.
+
 ## Stored artifacts
 
 - `data/normalized/YYYY-MM-DD/<edition>.json`: canonical note records.
