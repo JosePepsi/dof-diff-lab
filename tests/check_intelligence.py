@@ -1,6 +1,7 @@
 from datetime import date
 from pathlib import Path
 import json
+from urllib.error import HTTPError
 import sys
 import tempfile
 
@@ -154,6 +155,20 @@ def main() -> None:
                 raise AssertionError(f"{day} must fail closed")
 
     must_fail(date(2026, 11, 17), lambda _d: [])  # dia habil con indice malformado
+
+    # SIDOF contesta 406 a un dia sin edicion (observado 2026-11-15 y 2026-11-16).
+    def sidof_status(code: int):
+        def fetch(_d):
+            raise OSError(f"No se pudo consultar SIDOF: HTTP Error {code}") from HTTPError("https://sidof.example", code, "x", {}, None)
+        return fetch
+
+    source = confirmed(date(2026, 11, 15), sidof_status(406))
+    assert source["no_edition_basis"] == "weekend" and source["sidof_http_status"] == 406 and source["sidof_empty"] is False
+    assert confirmed(date(2026, 11, 16), sidof_status(406))["no_edition_basis"] == "holiday:Día de la Revolución"
+    must_fail(date(2026, 11, 17), sidof_status(406))  # 406 en dia habil ordinario no confirma nada
+    must_fail(date(2026, 11, 16), sidof_status(500))  # otro estado HTTP en feriado
+    must_fail(date(2026, 11, 16), sidof_status(403))
+    must_fail(date(2026, 11, 15), sidof_status(404))
     must_fail(date(2026, 11, 15), lambda _d: (_ for _ in ()).throw(OSError("network down")))  # SIDOF caido en fin de semana
     must_fail(date(2026, 11, 16), lambda _d: (_ for _ in ()).throw(OSError("network down")))  # SIDOF caido en feriado
     # Otro ParseError (nota duplicada) en feriado tampoco se acepta como no_edition.

@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import sys
 from typing import Callable
+from urllib.error import HTTPError
 
 from .calendar_mx import no_edition_basis
 from .corpus import build_corpus, search_corpus
@@ -128,7 +129,24 @@ def _write_sidof_date(publication_date: date, root: Path, notes: list[dict[str, 
     return summary
 
 
-def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response: SourceResponse, basis: str) -> dict[str, object]:
+SIDOF_NO_CONTENT_STATUS = 406
+
+
+def _sidof_reports_no_content(error: BaseException | None) -> int | None:
+    """Estado HTTP si SIDOF respondió «sin contenido» para la fecha; None si fue otro error.
+
+    Observado el 2026-11-15 (domingo) y el 2026-11-16 (feriado): SIDOF contesta
+    HTTP 406 Not Acceptable al listado de notas de un día sin edición, mientras el
+    índice del DOF responde 200 sin edición reconocible. Solo ese código cuenta;
+    cualquier otro error (tiempo agotado, 5xx, 403, 404) sigue fallando cerrado.
+    """
+    cause = getattr(error, "__cause__", None)
+    if isinstance(cause, HTTPError) and cause.code == SIDOF_NO_CONTENT_STATUS:
+        return cause.code
+    return None
+
+
+def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response: SourceResponse, basis: str, sidof_status: int | None = None) -> dict[str, object]:
     date_key = publication_date.isoformat()
     edition = "matutina"
     normalized_path = root / "data" / "normalized" / date_key / f"{edition}.json"
@@ -156,7 +174,8 @@ def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response
         "source": {
             "source_id": "sidof+dof_index",
             "authority": "primary",
-            "sidof_empty": True,
+            "sidof_empty": sidof_status is None,
+            "sidof_http_status": sidof_status,
             "no_edition_basis": basis,
             "sidof_url": sidof_notes_url(publication_date),
             "dof_index_url": build_index_url(publication_date),
@@ -215,8 +234,9 @@ def sync_date(
         # Fail-closed: SIDOF respondio sin error y sin notas, el indice DOF no trae
         # fecha/edicion reconocibles y la fecha es fin de semana o feriado oficial.
         basis = no_edition_basis(publication_date)
-        if sidof_error is None and basis is not None:
-            return _write_confirmed_no_edition(publication_date, root, dof_response, basis)
+        sidof_status = _sidof_reports_no_content(sidof_error)
+        if basis is not None and (sidof_error is None or sidof_status is not None):
+            return _write_confirmed_no_edition(publication_date, root, dof_response, basis, sidof_status)
         # Diagnóstico para el registro de la corrida (stderr): por qué no se confirmó la ausencia.
         print(
             json.dumps(
