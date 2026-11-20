@@ -15,6 +15,8 @@ from urllib.parse import parse_qs, urljoin, urlsplit
 from urllib.request import Request, urlopen
 import unicodedata
 
+from .site import render_site
+
 SCHEMA_VERSION = "1.1"
 PARSER_VERSION = "1.1"
 RULE_VERSION = "1.0"
@@ -320,30 +322,6 @@ def build_insights(notes: list[dict[str, object]]) -> dict[str, dict[str, int]]:
 def write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(canonical_bytes(value))
-
-
-def render_site(manifest: dict[str, object], notes: list[dict[str, object]]) -> str:
-    insights = manifest["insights"]
-    document_types = "".join(f"<li>{escape(name)}: {count}</li>" for name, count in insights["by_document_type"].items())
-    topics = "".join(f"<li>{escape(name)}: {count}</li>" for name, count in insights["by_topic"].items())
-    evidence_items: list[str] = []
-    for note in notes:
-        tags = "".join(
-            "<li>" + f"{escape(str(item['name']))}: {escape(str(item['value']))}. Regla: {escape(str(item['rule_id']))} ({escape(str(item['rule_version']))}). Evidencia: {escape(str(item['evidence']))}. Coincidencia de regla; no probabilidad ni conclusión jurídica.</li>"
-            for item in note["tags"]
-        )
-        evidence_items.append(f"<article><h3><a href=\"{escape(str(note['canonical_url']))}\">{escape(str(note['code'] or 'sin código'))}</a> {escape(str(note['title']))}</h3><ul>{tags}</ul></article>")
-    return "".join((
-        "<!doctype html><html lang=\"es\"><meta charset=\"utf-8\">",
-        "<meta name=\"robots\" content=\"noindex,nofollow\"><title>Monitor diario del DOF</title>",
-        "<main><h1>Monitor diario del DOF</h1>",
-        "<p><strong>No afiliación:</strong> este proyecto no está afiliado, patrocinado ni respaldado por el Diario Oficial de la Federación.</p>",
-        "<p><strong>Fuente primaria:</strong> prevalece la publicación oficial enlazada. Este catálogo derivado no sustituye la fuente oficial ni constituye asesoría jurídica.</p>",
-        f"<p>Estado: <strong>{escape(str(manifest['status']))}</strong></p><p>Fecha de publicación: {escape(str(manifest['publication_date']))}</p><p>Notas: {manifest['note_count']}</p>",
-        "<h2>Tipos documentales</h2><ul>", document_types, "</ul><h2>Temas detectados por reglas</h2><ul>", topics,
-        "</ul><h2>Coincidencias de reglas y evidencia</h2><p>Las etiquetas describen coincidencias deterministas en títulos y metadatos; no determinan vigencia, alcance ni efecto jurídico.</p>",
-        "".join(evidence_items), "</main>"
-    ))
 
 
 def fetch_official_index(url: str, attempts: int = 3, opener: Callable[..., object] = urlopen, sleeper: Callable[[float], None] = time.sleep) -> SourceResponse:

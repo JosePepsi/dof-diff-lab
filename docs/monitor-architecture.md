@@ -35,6 +35,7 @@ Tavily is outside the ingestion trust path. The optional `discover` command uses
 |---|---|
 | `sources.py` | Official source registry, SIDOF URLs, daily response normalization and public provenance fields. |
 | `monitor.py` | Deterministic DOF HTML parser, fallback capture, tags, hashes, manifests, diffs and static rendering. |
+| `site.py` | Página estática autocontenida (HTML+CSS+JS mínimo) con modo claro/oscuro; `render_site` se reexporta desde `monitor.py`. |
 | `intelligence.py` | Orchestration CLI: `sync`, `build`, `search`, `discover`; SIDOF-first policy and fallback rules. |
 | `corpus.py` | Rebuildable SQLite FTS5 index over normalized records. |
 | `discovery.py` | Optional Tavily URL discovery with an official-host allowlist. |
