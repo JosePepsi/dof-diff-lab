@@ -1,91 +1,120 @@
 # DOF Intelligence Lab
 
-**DOF Intelligence Lab** is a traceable monitor and searchable corpus for Mexico's Diario Oficial de la Federación (DOF). It prefers structured SIDOF open data, falls back to the official DOF HTML index, preserves deterministic provenance, and can optionally use Tavily only to discover official URLs.
+Monitor trazable y corpus consultable del **Diario Oficial de la Federación (DOF)** de México. Prefiere los datos abiertos estructurados de SIDOF, usa el índice HTML oficial del DOF como respaldo y contraste, conserva procedencia determinista (hashes, manifiestos, diffs) y publica una página estática de inspección.
 
-> **No afiliación y uso responsable.** Este proyecto no está afiliado, patrocinado ni respaldado por el DOF ni por una autoridad pública. La fuente primaria siempre es la publicación oficial enlazada en `dof.gob.mx` o `sidof.segob.gob.mx`. Los catálogos, etiquetas, hashes y diffs son derivados técnicos: no determinan vigencia ni efectos jurídicos y no sustituyen la consulta oficial ni asesoría profesional.
+> **No afiliación y uso responsable.** Este proyecto no está afiliado, patrocinado ni respaldado por el DOF ni por una autoridad pública. La fuente primaria siempre es la publicación oficial enlazada en `dof.gob.mx` o `sidof.segob.gob.mx`. Los catálogos, etiquetas, hashes y diffs son derivados técnicos: no determinan vigencia ni efectos jurídicos y no sustituyen la consulta oficial ni la asesoría profesional.
 
-## How it works
+## Qué hace y por qué
 
-1. Query SIDOF daily JSON and normalize matutina, vespertina and extraordinaria notes.
-2. Preserve official metadata, human-facing URLs, API provenance, availability flags and record hashes.
-3. If SIDOF is unavailable or empty, cross-check the official DOF HTML index.
-4. Write deterministic normalized JSON, manifests, diffs and a static inspection page.
-5. Rebuild a local SQLite FTS5 corpus for lexical search.
-6. Optionally use Tavily Search for official-domain URL discovery. Tavily never becomes the publication source of truth.
+| Pregunta | Respuesta |
+|---|---|
+| ¿Qué se publicó hoy? | Un catálogo normalizado por fecha y edición (matutina, vespertina, extraordinaria). |
+| ¿Qué cambió respecto de la captura anterior? | Un diff determinista de altas, bajas y modificaciones. |
+| ¿Puedo verificarlo? | Cada nota enlaza a la publicación oficial y lleva un hash SHA-256 de su registro. |
+| ¿Puedo buscar? | Sí: índice local SQLite FTS5 reconstruible desde los catálogos. |
+| ¿Dice qué ley está vigente? | No. Las etiquetas son coincidencias de reglas sobre títulos y metadatos. |
 
-The runtime is Python-standard-library only. There is no browser automation, OCR stack, vector database or mandatory external SDK.
+El entorno de ejecución usa solo la biblioteca estándar de Python: sin automatización de navegador, OCR, base vectorial ni SDK externo obligatorio.
 
-## Trade change triage for cross-project research
-
-The new **offline, read-only** `triage` command scans the **already normalized** DOF/SIDOF daily catalogs for specific tariff or trade-regulation terms in **published titles**. It is a bridge for researchers and downstream consumers such as `arancel-mx` and `wiki-comercio-exterior-mx`, not a new source of laws or automatic tariffs.
-
-```bash
-python3 -m dof_diff_lab triage --root . --start 2026-11-01 --end 2026-11-10 --limit 100
-```
-
-The JSON response includes matching **rule IDs**, exact title evidence, the official DOF/SIDOF link, original note hash when available, publication date/edition, and coverage diagnostics. A zero-match local scan does **not** prove that the official journal has no relevant changes. Entries without a verified title or official-domain HTTPS URL are excluded and counted. `priority_review` means a matching title keyword, **not legal importance, enactment, current validity, or a confirmed tariff change**. The CLI uses existing local artifacts and makes no HTTP requests or GitHub issue changes.
-
-See [Trade watch contract](docs/trade-watch-contract.md) for strict limits, failure modes, example fields and handoff criteria.
-
-## Commands
+## Cómo funciona
 
 ```text
+SIDOF (JSON diario)  ──notas──▶  normalizar ediciones + procedencia
+        │                              │
+        │ no disponible o vacío        ├─▶ etiquetas por reglas, hashes SHA-256
+        ▼                              ├─▶ data/normalized · manifests · diffs · state
+Índice HTML del DOF                    ├─▶ site/index.html (página estática)
+(respaldo y contraste)                 └─▶ corpus SQLite FTS5 (artefacto generado)
+```
+
+1. Consulta el JSON diario de SIDOF y normaliza las notas por edición.
+2. Conserva metadatos oficiales, URL humanas, procedencia de la API, banderas de disponibilidad y hash por registro.
+3. Si SIDOF falla o viene vacío, contrasta con el índice HTML oficial del DOF. Un día sin publicación confirmado por ambas fuentes queda como `no_edition`.
+4. Escribe JSON normalizado, manifiestos, diffs y la página estática.
+5. Reconstruye un corpus SQLite FTS5 para búsqueda léxica.
+6. Opcionalmente usa Tavily solo para descubrir URL oficiales; nunca es fuente de verdad de la publicación.
+
+## Inicio rápido
+
+```bash
 python3 -m dof_diff_lab sync --date 2026-08-29 --root .
 python3 -m dof_diff_lab build --root . --database .tmp/dof-corpus.sqlite3
 python3 -m dof_diff_lab search "comercio exterior" --database .tmp/dof-corpus.sqlite3
 ```
 
-For optional discovery:
+Descubrimiento opcional (requiere `TAVILY_API_KEY`):
 
-```text
+```bash
 export TAVILY_API_KEY="..."
 python3 -m dof_diff_lab discover "DOF comercio exterior cambios recientes"
 ```
 
-The lower-level fallback parser is also available for diagnostics:
+Analizador de respaldo, para diagnóstico:
 
-```text
+```bash
 python3 -m dof_diff_lab.monitor --date 2026-08-29 --root .
 ```
 
-## Artifacts
+## Sitio publicado
 
-| Artifact | Purpose |
-|---|---|
-| `data/normalized/YYYY-MM-DD/<edition>.json` | canonical records for comparison and corpus ingestion |
-| `data/manifests/YYYY-MM-DD/<edition>.json` | provenance, parser/schema information and hashes |
-| `data/diffs/YYYY-MM-DD[-edition].md` | human-readable deterministic changes |
-| `data/state/latest.json` | latest operational state |
-| `site/index.html` | source-linked static inspection view |
-| `.tmp/dof-corpus.sqlite3` | local generated search database. Actions publishes the database as `tmp/dof-corpus.sqlite3` inside the run artifact |
+`site/index.html` es **un solo archivo HTML autocontenido** generado de forma determinista (mismos datos, mismos bytes) por `dof_diff_lab/site.py`:
 
-A legitimate day with no publication is `no_edition`. Unexpected HTTP/MIME responses and malformed weekday pages remain errors so source failures are not confused with absence of news.
+- Estado del día (`changed`, `no_change`, `no_edition`), fecha, tarjetas de resumen y gráficas de barras en CSS por tipo documental, tema y emisor.
+- Una tarjeta por nota con enlace al DOF oficial; la evidencia de cada regla va en un `<details>`.
+- Filtro de texto y por tipo con JavaScript mínimo opcional: sin JS la página sigue completa.
+- Modo claro y oscuro (`prefers-color-scheme`), adaptable desde 360 px, enlace de salto, foco visible y hoja de estilos de impresión.
+- Sin fuentes, scripts, imágenes ni rastreadores externos; `noindex,nofollow`.
+- Los avisos de no afiliación y fuente primaria permanecen visibles.
 
-## Automation
+## Triaje de cambios comerciales
 
-GitHub Actions checks the Mexican publication date at **16:17, 22:17 and 03:17 UTC**. The 03:17 UTC run resolves the date in `America/Mexico_City`, avoiding an accidental next-day query while giving vespertina/extraordinaria editions another capture window.
+El comando `triage` es **sin conexión y de solo lectura**: busca términos arancelarios o de regulación comercial en los **títulos publicados** de los catálogos ya normalizados. Sirve a investigadores y a proyectos como `arancel-mx` y `wiki-comercio-exterior-mx`; no es una fuente de leyes ni de aranceles automáticos.
 
-The workflow syncs official sources, builds the corpus artifact, uploads verified derivatives, commits only changed `data/` and `site/` outputs, and deploys the static site. Actions are pinned by commit SHA and jobs use minimum required permissions.
-
-## Development checks
-
-```text
-python3 tests/check_entrypoint.py
-python3 tests/check_monitor.py
-python3 tests/check_monitor_workflow.py
-python3 tests/check_public_readiness.py
-python3 tests/check_sources.py
-python3 tests/check_corpus.py
-python3 tests/check_discovery.py
-python3 tests/check_intelligence.py
+```bash
+python3 -m dof_diff_lab triage --root . --start 2026-11-01 --end 2026-11-10 --limit 100
 ```
 
-Tests are network-free and need no secrets. See [`docs/monitor-architecture.md`](docs/monitor-architecture.md) for the current design and [`SECURITY.md`](SECURITY.md) for responsible reporting.
+La respuesta incluye reglas coincidentes, evidencia textual exacta, enlace oficial, hash de la nota y diagnóstico de cobertura. Cero coincidencias locales **no** prueba que no haya cambios relevantes; `priority_review` significa coincidencia de palabra clave en el título, **no** importancia jurídica, vigencia ni cambio arancelario confirmado. Detalles y límites en [Contrato de trade watch](docs/trade-watch-contract.md).
 
-## Design boundaries
+## Estructura de datos
 
-The current system deliberately stays mostly deterministic. SQLite FTS5 is sufficient for the existing normalized corpus and exact legal terminology. A vector/LLM layer should only be added if evaluation demonstrates retrieval value that lexical and metadata search cannot provide. Tavily remains discovery-only, and AI-generated legal conclusions are outside this repository's trust boundary.
+| Ruta | Contenido |
+|---|---|
+| `data/normalized/AAAA-MM-DD/<edición>.json` | registros canónicos para comparar e ingerir al corpus |
+| `data/manifests/AAAA-MM-DD/<edición>.json` | procedencia, versiones de analizador/esquema y hashes |
+| `data/diffs/AAAA-MM-DD[-edición].md` | cambios legibles y deterministas |
+| `data/state/latest.json` | último estado operativo |
+| `site/index.html` | vista estática de inspección con enlaces a la fuente |
+| `.tmp/dof-corpus.sqlite3` | base de búsqueda local generada; Actions la publica como `tmp/dof-corpus.sqlite3` dentro del artefacto de la corrida |
 
-## License
+## Automatización
 
-Project code is Apache-2.0. DOF content remains subject to its official terms; this repository does not attempt to relicense official publications or replace the gazette.
+GitHub Actions consulta la fecha de publicación mexicana a las **16:17, 22:17 y 03:17 UTC**. La corrida de las 03:17 UTC resuelve la fecha en `America/Mexico_City` para evitar consultar el día siguiente por error y dar otra ventana a ediciones vespertinas o extraordinarias.
+
+El flujo sincroniza las fuentes oficiales, construye el corpus, sube derivados verificados, confirma solo los cambios en `data/` y `site/`, y despliega el sitio estático. Las acciones están fijadas por SHA de commit y los trabajos usan permisos mínimos.
+
+## Límites de confianza
+
+- La publicación oficial en `dof.gob.mx` / `sidof.segob.gob.mx` es la única fuente de verdad.
+- Tavily queda fuera de la ruta de ingesta: solo localiza URL candidatas y se restringe a hosts oficiales.
+- Las etiquetas son coincidencias deterministas de reglas, no probabilidades ni conclusiones jurídicas.
+- No se conserva el HTML crudo (`raw_retained: false`); solo su hash.
+- Un día sin notas confirmado es `no_edition`; respuestas HTTP/MIME inesperadas son errores, para no confundir una falla de fuente con ausencia de publicación.
+
+## Verificaciones
+
+```bash
+for t in entrypoint monitor monitor_workflow public_readiness sources corpus discovery intelligence trade_watch repository_integrity site; do
+  python3 tests/check_$t.py
+done
+```
+
+No requieren red ni secretos. Consulte [`docs/monitor-architecture.md`](docs/monitor-architecture.md) para el diseño y [`SECURITY.md`](SECURITY.md) para reportes responsables.
+
+## Límites de diseño
+
+El sistema se mantiene deliberadamente determinista. SQLite FTS5 basta para el corpus actual y la terminología jurídica exacta; una capa vectorial o LLM solo se justificaría con evaluación que demuestre valor de recuperación. Las conclusiones jurídicas generadas por IA quedan fuera del límite de confianza de este repositorio.
+
+## Licencia
+
+El código es Apache-2.0. El contenido del DOF sigue sujeto a sus términos oficiales; este repositorio no pretende relicenciar publicaciones oficiales ni sustituir el diario.
