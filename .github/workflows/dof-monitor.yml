@@ -99,6 +99,9 @@ jobs:
           git config user.name "dof-monitor[bot]"
           git config user.email "dof-monitor[bot]@users.noreply.github.com"
           git commit -m "data: monitor DOF ${{ needs.capture.outputs.publication_date }}"
+          # El checkout parte del commit que disparó la corrida; si main avanzó mientras
+          # tanto (otra corrida publicó), integrar antes de empujar.
+          git pull --rebase origin main
           git push
 
   deploy:

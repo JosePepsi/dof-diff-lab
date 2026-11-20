@@ -70,8 +70,14 @@ def main() -> None:
     assert "<article" not in empty and 'class="card"' not in empty
 
     published = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
-    for text in REQUIRED:
-        assert text in published, text
+    # La página publicada es la del último día: con notas o «sin edición confirmada».
+    # Cada estado debe cumplir lo que le corresponde (la frase de coincidencias solo existe con notas).
+    if "badge no_edition" in published:
+        for text in ("Sin edición confirmada", "No afiliación", "Fuente primaria", "no sustituye la fuente oficial", 'content="noindex,nofollow"'):
+            assert text in published, text
+    else:
+        for text in REQUIRED:
+            assert text in published, text
     assert not re.search(r"https?://(?!(?:www\.)?dof\.gob\.mx|sidof\.segob\.gob\.mx)", published)
     print("check_site ok")
 

@@ -33,6 +33,7 @@ def main() -> None:
         "git add -- data site",
         "git diff --cached --quiet -- data site",
         "git commit -m",
+        "git pull --rebase origin main",
         "if-no-files-found: error",
         "needs: [capture, publish]",
     )
@@ -44,6 +45,7 @@ def main() -> None:
     # New daily publication files start untracked; the no-op guard must inspect the index.
     assert text.index("git add -- data site") < text.index("git diff --cached --quiet -- data site") < text.index("git commit -m")
     assert "if git diff --quiet -- data site" not in text
+    assert text.index("git commit -m") < text.index("git pull --rebase origin main") < text.index("git push")
     refs = re.findall(r"uses:\s*[^@\s]+@([^\s]+)", text)
     assert refs and all(re.fullmatch(r"[0-9a-f]{40}", ref) for ref in refs), refs
 
