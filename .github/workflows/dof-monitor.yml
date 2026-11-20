@@ -54,7 +54,8 @@ jobs:
         run: |
           python3 -m dof_diff_lab.intelligence build \
             --root . \
-            --database .tmp/dof-corpus.sqlite3
+            --database tmp/dof-corpus.sqlite3
+          test -s tmp/dof-corpus.sqlite3
 
       - name: Conservar derivados verificados de la corrida
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
@@ -66,7 +67,7 @@ jobs:
             data/diffs/
             data/state/
             site/
-            .tmp/dof-corpus.sqlite3
+            tmp/dof-corpus.sqlite3
           if-no-files-found: error
           retention-days: 30
 

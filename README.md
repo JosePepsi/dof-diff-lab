@@ -57,7 +57,7 @@ python3 -m dof_diff_lab.monitor --date 2026-08-29 --root .
 | `data/diffs/YYYY-MM-DD[-edition].md` | human-readable deterministic changes |
 | `data/state/latest.json` | latest operational state |
 | `site/index.html` | source-linked static inspection view |
-| `.tmp/dof-corpus.sqlite3` | generated search database; artifact only, not committed |
+| `.tmp/dof-corpus.sqlite3` | local generated search database. Actions publishes the database as `tmp/dof-corpus.sqlite3` inside the run artifact |
 
 A legitimate day with no publication is `no_edition`. Unexpected HTTP/MIME responses and malformed weekday pages remain errors so source failures are not confused with absence of news.
 
