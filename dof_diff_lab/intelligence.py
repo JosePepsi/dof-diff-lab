@@ -7,11 +7,13 @@ import json
 from pathlib import Path
 from typing import Callable
 
+from .calendar_mx import no_edition_basis
 from .corpus import build_corpus, search_corpus
 from .discovery import tavily_search
 from .monitor import (
     SCHEMA_VERSION,
     MonitorResult,
+    NoRecognizableEditionError,
     ParseError,
     SourceResponse,
     build_index_url,
@@ -125,7 +127,7 @@ def _write_sidof_date(publication_date: date, root: Path, notes: list[dict[str, 
     return summary
 
 
-def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response: SourceResponse) -> dict[str, object]:
+def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response: SourceResponse, basis: str) -> dict[str, object]:
     date_key = publication_date.isoformat()
     edition = "matutina"
     normalized_path = root / "data" / "normalized" / date_key / f"{edition}.json"
@@ -154,6 +156,7 @@ def _write_confirmed_no_edition(publication_date: date, root: Path, dof_response
             "source_id": "sidof+dof_index",
             "authority": "primary",
             "sidof_empty": True,
+            "no_edition_basis": basis,
             "sidof_url": sidof_notes_url(publication_date),
             "dof_index_url": build_index_url(publication_date),
             "dof_http_status": dof_response.status,
@@ -207,9 +210,12 @@ def sync_date(
     dof_response = dof_fetch(index_url)
     try:
         result: MonitorResult = run_monitor(publication_date, root, fetch=lambda _url: dof_response)
-    except ParseError:
-        if sidof_error is None and publication_date.weekday() >= 5:
-            return _write_confirmed_no_edition(publication_date, root, dof_response)
+    except NoRecognizableEditionError:
+        # Fail-closed: SIDOF respondio sin error y sin notas, el indice DOF no trae
+        # fecha/edicion reconocibles y la fecha es fin de semana o feriado oficial.
+        basis = no_edition_basis(publication_date)
+        if sidof_error is None and basis is not None:
+            return _write_confirmed_no_edition(publication_date, root, dof_response, basis)
         raise
     return {
         "status": result.status,

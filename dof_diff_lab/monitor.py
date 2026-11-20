@@ -44,6 +44,10 @@ class ParseError(ValueError):
     pass
 
 
+class NoRecognizableEditionError(ParseError):
+    """El índice oficial no trae fecha ni edición reconocibles."""
+
+
 def build_index_url(publication_date: date) -> str:
     return (
         "https://dof.gob.mx/index_113.php?"
@@ -265,7 +269,7 @@ def parse_official_index(body: bytes, index_url: str) -> list[dict[str, object]]
     if not records and not parser.observed_edition:
         if looks_like_no_edition(" ".join(parser.visible_text)):
             return []
-        raise ParseError("El índice oficial no contiene fecha y edición reconocibles.")
+        raise NoRecognizableEditionError("El índice oficial no contiene fecha y edición reconocibles.")
     return [records[key] for key in sorted(records)]
 
 
