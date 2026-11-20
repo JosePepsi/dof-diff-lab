@@ -63,7 +63,9 @@ Repeated runs are idempotent. Existing normalized data for an edition is loaded 
 2. El índice del DOF falló únicamente con `NoRecognizableEditionError` (sin fecha ni edición reconocibles); cualquier otro `ParseError`, HTTP o MIME inesperado sigue siendo error.
 3. La fecha es fin de semana o feriado obligatorio según `dof_diff_lab/calendar_mx.py`.
 
-El manifiesto registra `source.no_edition_basis` (`weekend` o `holiday:<nombre>`), las URL consultadas y el SHA-256 de la respuesta del DOF. Un día hábil no feriado con índice malformado, o un error de red de SIDOF (incluso en fin de semana o feriado), termina en error. Si SIDOF o el índice traen notas en sábado, domingo o feriado (edición extraordinaria), se procesan normalmente.
+El manifiesto registra `source.no_edition_basis` (`weekend` o `holiday:<nombre>`), las URL consultadas y el SHA-256 de la respuesta del DOF. **«SIDOF sin contenido».** Para un día sin edición SIDOF no devuelve una lista vacía: contesta `HTTP 406 Not Acceptable` al listado de notas (observado el domingo 2026-11-15 y el lunes feriado 2026-11-16, con el índice del DOF respondiendo 200 sin edición reconocible). Por eso la primera condición se cumple también cuando SIDOF responde exactamente 406; el manifiesto lo registra en `source.sidof_http_status`. Cualquier otro error de SIDOF (tiempo agotado, 5xx, 403, 404) sigue sin confirmar nada.
+
+Un día hábil no feriado con índice malformado, o un error de SIDOF distinto de ese 406 (incluso en fin de semana o feriado), termina en error. Si SIDOF o el índice traen notas en sábado, domingo o feriado (edición extraordinaria), se procesan normalmente.
 
 Feriados (Ley Federal del Trabajo, art. 74): 1 de enero; primer lunes de febrero; tercer lunes de marzo; 1 de mayo; 16 de septiembre; 1 de octubre cada seis años desde 2024 (transmisión del Poder Ejecutivo Federal); tercer lunes de noviembre; 25 de diciembre. Origen: el monitor falló del 14 al 17 de noviembre de 2026 (el 16 fue feriado); ver issue #3.
 
