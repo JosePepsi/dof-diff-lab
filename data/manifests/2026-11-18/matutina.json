@@ -1,0 +1,30 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-19T03:32:35+00:00",
+  "insights": {
+    "by_document_type": {
+      "decreto": 1
+    },
+    "by_issuer": {
+      "PRESIDENCIA DE LA REPUBLICA": 1
+    },
+    "by_topic": {
+      "other": 1
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-18/matutina.json",
+  "normalized_sha256": "07f56e6ae45cf8903a4c4d00641d9e10b41624a5b4f43523a76827f66f893e61",
+  "note_count": 1,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-18",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=18",
+    "raw_retained": false,
+    "raw_sha256": "6f52cdb88ac7aa1f91f3d628da6442fd0346c1a65603dcc8f51a358d41291e8d",
+    "raw_size": 50324
+  },
+  "status": "changed"
+}

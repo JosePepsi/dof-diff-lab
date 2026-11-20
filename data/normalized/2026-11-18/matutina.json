@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804217&fecha=18/11/2026",
+      "code": "5804217",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "PRESIDENCIA DE LA REPUBLICA",
+      "record_sha256": "88923b9a27c645a4b87882eeba34b9338b87f1728cfa101de255ae8e47abf603",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "decreto",
+          "name": "document_type",
+          "rule_id": "document_type.decreto",
+          "rule_version": "1.0",
+          "value": "decreto"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "adicionan",
+          "name": "signal",
+          "rule_id": "signal.possible_addition",
+          "rule_version": "1.0",
+          "value": "possible_addition"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Decreto por el que se reforman y adicionan diversas disposiciones del Decreto por el que se crea el organismo público descentralizado con personalidad jurídica y patrimonio propios Talleres Gráficos de México, con domicilio en la Ciudad de México, publicado el 08 de enero de 1999.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Decreto por el que se reforman y adicionan diversas disposiciones del Decreto por el que se crea el organismo público descentralizado con personalidad jurídica y patrimonio propios Talleres Gráficos de México, con domicilio en la Ciudad de México, publicado el 08 de enero de 1999."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=18",
+    "name": "DOF official index",
+    "publication_date": "2026-11-18"
+  }
+}

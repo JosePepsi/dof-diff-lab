@@ -1,0 +1,497 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803857&fecha=17/11/2026",
+      "code": "5803857",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES",
+      "record_sha256": "4638ba2d2e958dbb2b0f9a5382cf6fd9ec2bfda818d992236fd485184a511468",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso mediante el cual se informa al público en general que está a su disposición el estudio realizado por la Comisión Nacional de Áreas Naturales Protegidas para justificar la expedición del Decreto por el que se pretende declarar como área natural protegida con el carácter de área de protección de flora y fauna el sitio conocido como Laguna de Cuyutlán, con una superficie de 197,337-18-88.73 hectáreas, ubicada en los municipios de Armería y Manzanillo, en el estado de Colima.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso mediante el cual se informa al público en general que está a su disposición el estudio realizado por la Comisión Nacional de Áreas Naturales Protegidas para justificar la expedición del Decreto por el que se pretende declarar como área natural protegida con el carácter de área de protección de flora y fauna el sitio conocido como Laguna de Cuyutlán, con una superficie de 197,337-18-88.73 hectáreas, ubicada en los municipios de Armería y Manzanillo, en el estado de Colima."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803859&fecha=17/11/2026",
+      "code": "5803859",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL",
+      "record_sha256": "503f04954b1d92d96a9bdcd8901d71dfb8d78a5a721a1ca3cb11f28f8209daef",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de la necrosis hematopoyética epizoótica en la trucha de cultivo.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de la necrosis hematopoyética epizoótica en la trucha de cultivo."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803860&fecha=17/11/2026",
+      "code": "5803860",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL",
+      "record_sha256": "be1b0b03878ebb558da61989a98d6294af608ba53945882d8559b40ee8e26f2d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de herpesvirus de la carpa koi en la carpa común.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de herpesvirus de la carpa koi en la carpa común."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803861&fecha=17/11/2026",
+      "code": "5803861",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL",
+      "record_sha256": "182de3ebc4f1fcabf1f02f36c795b0dca2079e4f792fbd3b26cbd9fed80eb6f4",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se declara como zona de baja prevalencia de moscas de la fruta del género Anastrepha de importancia cuarentenaria al Municipio de Múgica en el Estado de Michoacán.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se declara como zona de baja prevalencia de moscas de la fruta del género Anastrepha de importancia cuarentenaria al Municipio de Múgica en el Estado de Michoacán."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803862&fecha=17/11/2026",
+      "code": "5803862",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL",
+      "record_sha256": "0489086b8372f0f4dd757af359252aa929f7cd00254a25ce914cc96ea1eac320",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de la viremia primaveral de la carpa en la carpa común.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se declara al territorio de los Estados Unidos Mexicanos como zona libre de la viremia primaveral de la carpa en la carpa común."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803863&fecha=17/11/2026",
+      "code": "5803863",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE AGRICULTURA Y DESARROLLO RURAL",
+      "record_sha256": "2c6548a80c855cbf94104ba64049ee4e6919f826156d446e84fbf41c38b3cdab",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se establece el volumen de captura permisible para el aprovechamiento de pulpo rojo (Octopus maya) para la temporada de pesca 2026 en Campeche y Yucatán.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se establece el volumen de captura permisible para el aprovechamiento de pulpo rojo (Octopus maya) para la temporada de pesca 2026 en Campeche y Yucatán."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803865&fecha=17/11/2026",
+      "code": "5803865",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE SALUD",
+      "record_sha256": "15ef348799fbca0f55c203a6595de9671df2302a03555c7c931bfc6c1a32803f",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "salud",
+          "name": "topic",
+          "rule_id": "topic.health",
+          "rule_version": "1.0",
+          "value": "health"
+        }
+      ],
+      "title": "Aviso por el que se dan a conocer las ligas electrónicas para consulta del Código de Conducta de la Secretaría de Salud."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803867&fecha=17/11/2026",
+      "code": "5803867",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL",
+      "record_sha256": "8a66ad5790cbe716dcf790c0ce693c7aede044ff9dc0edc7e804369b8a5d2c30",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "empleo",
+          "name": "topic",
+          "rule_id": "topic.labor",
+          "rule_version": "1.0",
+          "value": "labor"
+        }
+      ],
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Zacatecas."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803869&fecha=17/11/2026",
+      "code": "5803869",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE CULTURA",
+      "record_sha256": "114b1aa3c89924d9e3516f34aa4ffd13c8c6ea3041a56a8782a3309b4f86c2d3",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se establecen acciones de simplificación y mejora administrativa del trámite y servicios que se realizan ante el Instituto Mexicano de Cinematografía.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se establecen acciones de simplificación y mejora administrativa del trámite y servicios que se realizan ante el Instituto Mexicano de Cinematografía."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803871&fecha=17/11/2026",
+      "code": "5803871",
+      "issuer_primary": "ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS",
+      "issuer_secondary": "INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO",
+      "record_sha256": "7081b52c2b0b704eb3bc4e265667471c350ba763663b4f2e26db5e0f8f8cb504",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "trabajadores",
+          "name": "topic",
+          "rule_id": "topic.labor",
+          "rule_version": "1.0",
+          "value": "labor"
+        }
+      ],
+      "title": "Acuerdo 20.1395.2026 mediante el cual la Junta Directiva del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado, aprobó el Programa de Financiamiento 2027 del FOVISSSTE."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803873&fecha=17/11/2026",
+      "code": "5803873",
+      "issuer_primary": "PODER JUDICIAL",
+      "issuer_secondary": "SUPREMA CORTE DE JUSTICIA DE LA NACION",
+      "record_sha256": "fd4e054a4793088d2d90a6f483149da3c96a8789a73a90e1f9c6f88705fa6638",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "sentencia",
+          "name": "document_type",
+          "rule_id": "document_type.sentencia",
+          "rule_version": "1.0",
+          "value": "sentencia"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Controversia Constitucional 120/2026, así como el Voto Concurrente de la señora Ministra Lenia Batres Guadarrama.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Controversia Constitucional 120/2026, así como el Voto Concurrente de la señora Ministra Lenia Batres Guadarrama."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803875&fecha=17/11/2026",
+      "code": "5803875",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "faefca04ab8391b1242ba980df9e0e4e7e7ebb7c5c448a8620e4c56c63cbd0ee",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803876&fecha=17/11/2026",
+      "code": "5803876",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "2c9fd02f28bb9b1a0b07a11e5a166b545d9ac37de508636a90ccd449eaae254b",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803877&fecha=17/11/2026",
+      "code": "5803877",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "2141a04d14dde94f2780ec544ab05e82de285fc126c65236a8351e2bab78faf6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803879&fecha=17/11/2026",
+      "code": "5803879",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL DE ESTADISTICA Y GEOGRAFIA",
+      "record_sha256": "da9a62f8973420e7ae12d669c47c70691649c0097a3505261c7239bd41bb9d8d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Encadenamiento de productos del índice nacional de precios al consumidor, correspondiente al mes de octubre de 2026.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Encadenamiento de productos del índice nacional de precios al consumidor, correspondiente al mes de octubre de 2026.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Encadenamiento de productos del índice nacional de precios al consumidor, correspondiente al mes de octubre de 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803882&fecha=17/11/2026",
+      "code": "5803882",
+      "issuer_primary": "TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA",
+      "issuer_secondary": null,
+      "record_sha256": "af7e5ecb0f5a8b849266239ca48834f6cfaf3fc5294d3bf40e8c99efbdeb2149",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/89/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Sala Regional en Querétaro\".",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/89/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Sala Regional en Querétaro\".",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Extracto del Acuerdo G/JGA/89/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Sala Regional en Querétaro\"."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803883&fecha=17/11/2026",
+      "code": "5803883",
+      "issuer_primary": "TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA",
+      "issuer_secondary": null,
+      "record_sha256": "07a757ffa4d37df501cf827bd33625b308b5ac70391f39b9e94c0f4245689466",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/90/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Décimo Segunda Sala Regional en la Ciudad de México\".",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/90/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Décimo Segunda Sala Regional en la Ciudad de México\".",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Extracto del Acuerdo G/JGA/90/2026, denominado \"Suplencia de persona Magistrada, en la Tercera Ponencia de la Décimo Segunda Sala Regional en la Ciudad de México\"."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5803884&fecha=17/11/2026",
+      "code": "5803884",
+      "issuer_primary": "TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA",
+      "issuer_secondary": null,
+      "record_sha256": "fa07d60a7f212cf7c25e7287e972f7d1cb5e56d2c6020e66ff5a164476b0e62f",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/91/2026, denominado \"Se deja sin efectos el Acuerdo G/JGA/78/2026, por el que se determinó la suplencia de persona Magistrada, en la Segunda Ponencia de la Primera Sala Regional en Nuevo León\".",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Extracto del Acuerdo G/JGA/91/2026, denominado \"Se deja sin efectos el Acuerdo G/JGA/78/2026, por el que se determinó la suplencia de persona Magistrada, en la Segunda Ponencia de la Primera Sala Regional en Nuevo León\".",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Extracto del Acuerdo G/JGA/91/2026, denominado \"Se deja sin efectos el Acuerdo G/JGA/78/2026, por el que se determinó la suplencia de persona Magistrada, en la Segunda Ponencia de la Primera Sala Regional en Nuevo León\"."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=17",
+    "name": "DOF official index",
+    "publication_date": "2026-11-17"
+  }
+}
