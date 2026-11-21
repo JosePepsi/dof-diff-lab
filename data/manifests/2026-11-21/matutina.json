@@ -1,0 +1,29 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-21T10:57:23+00:00",
+  "insights": {
+    "by_document_type": {},
+    "by_issuer": {},
+    "by_topic": {}
+  },
+  "normalized_path": "data/normalized/2026-11-21/matutina.json",
+  "normalized_sha256": "0b38da182d71892915682e7336179308945c6edb876858f43a082d19270b6c29",
+  "note_count": 0,
+  "parser_version": "hybrid-1.1",
+  "publication_date": "2026-11-21",
+  "schema_version": "1.1",
+  "source": {
+    "authority": "primary",
+    "dof_content_type": "text/html",
+    "dof_http_status": 200,
+    "dof_index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=21",
+    "dof_raw_retained": false,
+    "dof_raw_sha256": "c0c4e3f60115fce207b4745593b9a6c25dd1ff82ead4f5e4a3e5b5416092f9b5",
+    "no_edition_basis": "weekend",
+    "sidof_empty": false,
+    "sidof_http_status": 406,
+    "sidof_url": "https://sidof.segob.gob.mx/dof/sidof/notas/21-11-2026",
+    "source_id": "sidof+dof_index"
+  },
+  "status": "no_edition"
+}
