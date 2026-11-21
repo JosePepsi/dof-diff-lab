@@ -1,32 +1,21 @@
 {
   "edition": "matutina",
-  "generated_at": "2026-11-20T22:41:30+00:00",
+  "generated_at": "2026-11-21T03:14:02+00:00",
   "insights": {
     "by_document_type": {
-      "acuerdo": 6,
-      "decreto": 2,
-      "otro": 8
+      "acuerdo": 3
     },
     "by_issuer": {
-      "BANCO DE MEXICO": 3,
-      "CAMARA DE SENADORES": 1,
-      "INSTITUTO NACIONAL DE ESTADISTICA Y GEOGRAFIA": 1,
-      "INSTITUTO NACIONAL ELECTORAL": 2,
-      "PRESIDENCIA DE LA REPUBLICA": 1,
-      "SECRETARIA DE ECONOMIA": 2,
-      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 4,
-      "SECRETARIA DE RELACIONES EXTERIORES": 2
+      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 3
     },
     "by_topic": {
-      "environment": 1,
-      "financial": 1,
-      "fiscal": 4,
-      "other": 10
+      "fiscal": 1,
+      "other": 2
     }
   },
   "normalized_path": "data/normalized/2026-11-20/matutina.json",
-  "normalized_sha256": "3dd166a0b955f1f79421a2bbdf0ea56d7ef36edfec379b42e7eb68e0bf3220a1",
-  "note_count": 16,
+  "normalized_sha256": "856c80a275bc3c22b20d695af8ec3d9ba46ac97040d6b9fcd75318d09c1bcadf",
+  "note_count": 3,
   "parser_version": "1.1",
   "publication_date": "2026-11-20",
   "schema_version": "1.1",
@@ -35,8 +24,8 @@
     "http_status": 200,
     "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=20",
     "raw_retained": false,
-    "raw_sha256": "4e3a5d16860ddd65807699028e15da3b964ef3a200a51517a4168f5f7fc751fa",
-    "raw_size": 76893
+    "raw_sha256": "1dc3428e99ae0cd3d006bebb9fafc2a4aef70a2a35b8f90db79c78e4c1f0a11f",
+    "raw_size": 53618
   },
-  "status": "no_change"
+  "status": "changed"
 }
