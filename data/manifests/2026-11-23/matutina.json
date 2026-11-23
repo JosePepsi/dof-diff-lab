@@ -1,0 +1,49 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-23T12:30:30+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 6,
+      "aviso": 6,
+      "convenio": 1,
+      "otro": 5,
+      "resolucion": 1
+    },
+    "by_issuer": {
+      "BANCO DE MEXICO": 3,
+      "FISCALIA GENERAL DE LA REPUBLICA": 1,
+      "INSTITUTO NACIONAL ELECTORAL": 1,
+      "LOTERIA NACIONAL": 1,
+      "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO": 1,
+      "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO": 1,
+      "SECRETARIA DE ECONOMIA": 2,
+      "SECRETARIA DE GOBERNACION": 3,
+      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 3,
+      "SECRETARIA DE MARINA": 1,
+      "SECRETARIA DE TURISMO": 1,
+      "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR)": 1
+    },
+    "by_topic": {
+      "financial": 1,
+      "fiscal": 1,
+      "other": 15,
+      "public_procurement": 1,
+      "trade": 1
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-23/matutina.json",
+  "normalized_sha256": "2413ac6905ceb60cc6cb8760525563a14ee9d1fc97ba3dcdf7bab558964b9f36",
+  "note_count": 19,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-23",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=23",
+    "raw_retained": false,
+    "raw_sha256": "a25e8f21c85ec872a9f0aa75e64ed563b2b091cad5488cdd5f2f5199cb786487",
+    "raw_size": 83909
+  },
+  "status": "changed"
+}

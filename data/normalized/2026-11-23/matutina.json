@@ -1,0 +1,564 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804597&fecha=23/11/2026",
+      "code": "5804597",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "4767b70d3d09753d438a13535c2658fc9f591b284ac16f44641668d97b790609",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se establecen acciones de simplificación y mejora administrativa respecto de los trámites que se indican y que se realizan ante la Dirección General del Registro Nacional de Población e Identidad de la Secretaría de Gobernación.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se establecen acciones de simplificación y mejora administrativa respecto de los trámites que se indican y que se realizan ante la Dirección General del Registro Nacional de Población e Identidad de la Secretaría de Gobernación."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804598&fecha=23/11/2026",
+      "code": "5804598",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "d13650fb2e805db5478eb6d7b196f366cade0a5692e914fd2a7e50bad7f851ec",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Sergio Saldivar de la Rosa y firmantes de la agrupación denominada Amistad Morelos.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Sergio Saldivar de la Rosa y firmantes de la agrupación denominada Amistad Morelos."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804599&fecha=23/11/2026",
+      "code": "5804599",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "46ca244957610d74ade299c0c7223c78a84e3b4ce508919fde363e6c48ed41da",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Luis Jair Rodríguez Flores y firmantes de la agrupación denominada Iglesia Evangélica Ministerios Ebenezer de México.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Luis Jair Rodríguez Flores y firmantes de la agrupación denominada Iglesia Evangélica Ministerios Ebenezer de México."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804601&fecha=23/11/2026",
+      "code": "5804601",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MARINA",
+      "record_sha256": "d2db546a87c5fde6ce9a198fa9370af9275191d2bae5ec6fbef08ea34a4a735a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer la liga electrónica donde puede consultarse el Manual de Organización de la Administración del Sistema Portuario Nacional Guaymas, S.A. de C.V.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer la liga electrónica donde puede consultarse el Manual de Organización de la Administración del Sistema Portuario Nacional Guaymas, S.A. de C.V."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804603&fecha=23/11/2026",
+      "code": "5804603",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "128ce072df7e359b3a4fe1698a20253df95d297cdf9d5db4ec529afcf8442ca6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el cual se da a conocer el informe sobre la recaudación federal participable y las participaciones federales, así como los procedimientos de cálculo, por el mes de octubre de 2026, por el ajuste de participaciones del segundo cuatrimestre de 2026 y las participaciones del Fondo de Fiscalización y Recaudación del Tercer Trimestre de 2026.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el cual se da a conocer el informe sobre la recaudación federal participable y las participaciones federales, así como los procedimientos de cálculo, por el mes de octubre de 2026, por el ajuste de participaciones del segundo cuatrimestre de 2026 y las participaciones del Fondo de Fiscalización y Recaudación del Tercer Trimestre de 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804604&fecha=23/11/2026",
+      "code": "5804604",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "e612b5416067e3218bdebea66fbe689501c80e8cdf1069fe5a87b20d010328a8",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2026 y anexos 1, 18, 21, 22 y 29.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modificaciones",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "comercio exterior",
+          "name": "topic",
+          "rule_id": "topic.trade",
+          "rule_version": "1.0",
+          "value": "trade"
+        }
+      ],
+      "title": "Tercera Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2026 y anexos 1, 18, 21, 22 y 29."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804605&fecha=23/11/2026",
+      "code": "5804605",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "d0ef6ad0eb099b3b223ceae3ba0614473b2722d315a313dfd332fa7505659a98",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso mediante el cual se informa de la publicación del Manual General de Organización de AGROASEMEX, S.A.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso mediante el cual se informa de la publicación del Manual General de Organización de AGROASEMEX, S.A."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804607&fecha=23/11/2026",
+      "code": "5804607",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE ECONOMIA",
+      "record_sha256": "f3f11d1a93ae3715a94a1a0cfd17918328c90c60921ad7d486d093b6ffeb1e2e",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se modifica el diverso por el que se da a conocer el domicilio oficial de la Secretaría de Economía y las unidades administrativas adscritas a la misma.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se modifica el diverso por el que se da a conocer el domicilio oficial de la Secretaría de Economía y las unidades administrativas adscritas a la misma."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804608&fecha=23/11/2026",
+      "code": "5804608",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE ECONOMIA",
+      "record_sha256": "09434125422ca8279414d260419ab65a7efea5538510a9e273d6dbf803bee397",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se modifica el diverso por el que se establecen medidas administrativas en la Secretaría de Economía con el objeto de brindar facilidades a los usuarios de los trámites y procedimientos que se indican.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se modifica el diverso por el que se establecen medidas administrativas en la Secretaría de Economía con el objeto de brindar facilidades a los usuarios de los trámites y procedimientos que se indican."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804610&fecha=23/11/2026",
+      "code": "5804610",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO",
+      "record_sha256": "23170c32391244767f57e712aabe7e7d65fbf545c058156e03e6569a68687840",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que la persona titular de la Secretaría Anticorrupción y Buen Gobierno delega las facultades que se indican.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que la persona titular de la Secretaría Anticorrupción y Buen Gobierno delega las facultades que se indican."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804612&fecha=23/11/2026",
+      "code": "5804612",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO",
+      "record_sha256": "9eb0702276edd9162552f69232dc96bd8fb914174d81176ad0321d3ad38f7f65",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano y el Estado de Sonora.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano y el Estado de Sonora."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804614&fecha=23/11/2026",
+      "code": "5804614",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE TURISMO",
+      "record_sha256": "d47b36bb02925f71d0fac92955617afce9a2621e96f80990181b11f400a35229",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "licitacion",
+          "name": "signal",
+          "rule_id": "signal.contains_call_for_bids",
+          "rule_version": "1.0",
+          "value": "contains_call_for_bids"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "licitacion",
+          "name": "topic",
+          "rule_id": "topic.public_procurement",
+          "rule_version": "1.0",
+          "value": "public_procurement"
+        }
+      ],
+      "title": "Aviso mediante el cual se convoca a todas las personas físicas o morales, interesadas en participar en la Licitación Pública No. FONATUR-LP-DC-004-2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804616&fecha=23/11/2026",
+      "code": "5804616",
+      "issuer_primary": "ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS",
+      "issuer_secondary": "LOTERIA NACIONAL",
+      "record_sha256": "0a3d20e9ec96587d37bfafef95b64455a0b8d6a6086fae8ace6cc9ecf288f07a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se dan a conocer las ligas electrónicas para consulta del Código de Conducta de Lotería Nacional.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se dan a conocer las ligas electrónicas para consulta del Código de Conducta de Lotería Nacional."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804618&fecha=23/11/2026",
+      "code": "5804618",
+      "issuer_primary": "ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS",
+      "issuer_secondary": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR)",
+      "record_sha256": "242bba1e65be1899d06980e9f5a65afa2b6c960c10e230157868c504a4a96ed0",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "fiscal",
+          "name": "topic",
+          "rule_id": "topic.fiscal",
+          "rule_version": "1.0",
+          "value": "fiscal"
+        }
+      ],
+      "title": "Aviso mediante el cual se da a conocer la publicación de los Lineamientos de Operación del Programa Presupuestario U313 La Clínica es Nuestra para el ejercicio fiscal 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804620&fecha=23/11/2026",
+      "code": "5804620",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "50333ccc41a7b294f06537c2e2d8ac1577f05f915885a43fe21e62a8447126ff",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804621&fecha=23/11/2026",
+      "code": "5804621",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "608c6f3c327e74eec40f4c2b97c204f7830319c37fde228f13f2f36204e06deb",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804622&fecha=23/11/2026",
+      "code": "5804622",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "7601ed808dc57b9d37336eb9fbc2239d1545da1bbe06a1e83185fb3be5b2a22a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804624&fecha=23/11/2026",
+      "code": "5804624",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "FISCALIA GENERAL DE LA REPUBLICA",
+      "record_sha256": "d9312fb52f9e13c6ce7ed0653f58bf3d5aea7a230e00c3169b16f750469a6e2a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Reglas de Operación de la Plataforma de Denuncia Digital de la Fiscalía General de la República \"FISC@NET\".",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Reglas de Operación de la Plataforma de Denuncia Digital de la Fiscalía General de la República \"FISC@NET\".",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Reglas de Operación de la Plataforma de Denuncia Digital de la Fiscalía General de la República \"FISC@NET\"."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804626&fecha=23/11/2026",
+      "code": "5804626",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "85311416f6f41e06ff4ebe5315c87c7875373c9ec491e906e1af20885713f7c8",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "resolucion",
+          "name": "document_type",
+          "rule_id": "document_type.resolucion",
+          "rule_version": "1.0",
+          "value": "resolucion"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modificaciones",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Resolución del Consejo General del Instituto Nacional Electoral sobre la procedencia constitucional y legal de las modificaciones a la Declaración de Principios y a los Estatutos del Partido Político Nacional denominado Movimiento Ciudadano, en acatamiento a lo ordenado en la Resolución INE/CG499/2025 y en el Acuerdo INE/CG352/2026, relativas al cumplimiento de sus obligaciones en materia de violencia política contra las mujeres en razón de género y paridad sustantiva, en ejercicio de sus derechos de autoorganización y autodeterminación.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Resolución del Consejo General del Instituto Nacional Electoral sobre la procedencia constitucional y legal de las modificaciones a la Declaración de Principios y a los Estatutos del Partido Político Nacional denominado Movimiento Ciudadano, en acatamiento a lo ordenado en la Resolución INE/CG499/2025 y en el Acuerdo INE/CG352/2026, relativas al cumplimiento de sus obligaciones en materia de violencia política contra las mujeres en razón de género y paridad sustantiva, en ejercicio de sus derechos de autoorganización y autodeterminación."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=23",
+    "name": "DOF official index",
+    "publication_date": "2026-11-23"
+  }
+}
