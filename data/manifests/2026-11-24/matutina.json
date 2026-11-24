@@ -1,0 +1,50 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-24T06:05:24+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 7,
+      "aviso": 4,
+      "circular": 2,
+      "convenio": 4,
+      "otro": 5,
+      "resolucion": 2
+    },
+    "by_issuer": {
+      "BANCO DE MEXICO": 3,
+      "INSTITUTO NACIONAL ELECTORAL": 1,
+      "ORGANO DE ADMINISTRACION JUDICIAL": 1,
+      "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO": 3,
+      "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO": 2,
+      "SECRETARIA DE ECONOMIA": 2,
+      "SECRETARIA DE EDUCACION PUBLICA": 1,
+      "SECRETARIA DE GOBERNACION": 5,
+      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 3,
+      "SECRETARIA DE RELACIONES EXTERIORES": 1,
+      "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL": 1,
+      "SISTEMA PUBLICO DE RADIODIFUSION DEL ESTADO MEXICANO": 1
+    },
+    "by_topic": {
+      "environment": 1,
+      "financial": 1,
+      "health": 1,
+      "other": 20,
+      "trade": 1
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-24/matutina.json",
+  "normalized_sha256": "7a291dd5e7333d7ca76e3a69b380c1d151e1f72510f0672ea711d32f1eaf822f",
+  "note_count": 24,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-24",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=24",
+    "raw_retained": false,
+    "raw_sha256": "a44d99c97c5b9622042d6aa864b9bb87d2e69f449dcd8eef77720ee19a9ee071",
+    "raw_size": 94045
+  },
+  "status": "changed"
+}

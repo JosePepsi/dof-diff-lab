@@ -1,0 +1,691 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804778&fecha=24/11/2026",
+      "code": "5804778",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "6955cd6d7acfa12708eb1821aa86ce804f2e553f02593ddd021ae2ef7e18adfa",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio Marco de Coordinación que celebran la Secretaría de Gobernación y el Estado de Quintana Roo, que tiene por objeto coordinar las actividades que se estimen necesarias para diseñar, establecer, promover, coordinar, ejecutar, supervisar y evaluar la política poblacional en la entidad federativa, atendiendo a la dinámica demográfica del estado e integrando la perspectiva demográfica en la planeación y aplicación de las políticas públicas.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio Marco de Coordinación que celebran la Secretaría de Gobernación y el Estado de Quintana Roo, que tiene por objeto coordinar las actividades que se estimen necesarias para diseñar, establecer, promover, coordinar, ejecutar, supervisar y evaluar la política poblacional en la entidad federativa, atendiendo a la dinámica demográfica del estado e integrando la perspectiva demográfica en la planeación y aplicación de las políticas públicas."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804779&fecha=24/11/2026",
+      "code": "5804779",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "2a5948a47380a846cfb697ca764b4952a8f15cb79ff4cb7b6ae529248866b559",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Mario Alberto Sáenz Ramírez y firmantes de la agrupación denominada Iglesia Cristiana Comunión de Gracia Internacional.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Mario Alberto Sáenz Ramírez y firmantes de la agrupación denominada Iglesia Cristiana Comunión de Gracia Internacional."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804780&fecha=24/11/2026",
+      "code": "5804780",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "49db15252ad108f8e32cf29f82faecaa6c66bced02c92cfda3fe4798cfc5cda1",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Jesús Francisco Alfaro Bellizia y firmantes de la agrupación denominada Iglesia Jesucristo Yo Soy el Pan de Vida Juan 6:35.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Jesús Francisco Alfaro Bellizia y firmantes de la agrupación denominada Iglesia Jesucristo Yo Soy el Pan de Vida Juan 6:35."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804781&fecha=24/11/2026",
+      "code": "5804781",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "1dec5807476f87734d07fdb970ce10bfc0cc8fd25d8dd1e092e710c3482cb51e",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Pedro Pablo Azcorra Canche y firmantes de la agrupación denominada Centro Cristiano; La Casa de Dios U Yotoch Yuum K'Uj.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Pedro Pablo Azcorra Canche y firmantes de la agrupación denominada Centro Cristiano; La Casa de Dios U Yotoch Yuum K'Uj."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804782&fecha=24/11/2026",
+      "code": "5804782",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "a48dc5f27830ae779d799e59e45fc951142f55310f5ec893b181bbf7fc56f8e6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa de una entidad interna de Ministerio Internacional Jerusalén, A.R., denominada Iglesia Casa de Oración Gracia sobre Gracia Coatzacoalcos.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa de una entidad interna de Ministerio Internacional Jerusalén, A.R., denominada Iglesia Casa de Oración Gracia sobre Gracia Coatzacoalcos."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804784&fecha=24/11/2026",
+      "code": "5804784",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE RELACIONES EXTERIORES",
+      "record_sha256": "833eec54c9a335fd73e4f0a74c2c9439fa9d82a849f6001a3ceea3faa7223dd8",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Colaboración Administrativa para la apertura y operación de una Oficina Municipal de Enlace, que celebran la Secretaría de Relaciones Exteriores y el Municipio de Río Grande, Estado de Zacatecas.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Colaboración Administrativa para la apertura y operación de una Oficina Municipal de Enlace, que celebran la Secretaría de Relaciones Exteriores y el Municipio de Río Grande, Estado de Zacatecas."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804786&fecha=24/11/2026",
+      "code": "5804786",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "68a63780b0192ca6ae4646cc0c49d77250337e8c636b782d4bd79c62128f8285",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se determinan los días que se considerarán como inhábiles para efectos de los actos y procedimientos administrativos que se tramiten o deban tramitarse ante la Comisión Nacional Bancaria y de Valores por las entidades y personas sujetas a la supervisión de dicha comisión, así como por las autoridades y el público en general.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se determinan los días que se considerarán como inhábiles para efectos de los actos y procedimientos administrativos que se tramiten o deban tramitarse ante la Comisión Nacional Bancaria y de Valores por las entidades y personas sujetas a la supervisión de dicha comisión, así como por las autoridades y el público en general."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804787&fecha=24/11/2026",
+      "code": "5804787",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "5823133c061adb911f7e06ca84f0dd10c43cb4081f2235b7a5ce0cc34a2d70bd",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "resolucion",
+          "name": "document_type",
+          "rule_id": "document_type.resolucion",
+          "rule_version": "1.0",
+          "value": "resolucion"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Resolución que modifica las Disposiciones de carácter general aplicables a los proveedores de precios.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Resolución que modifica las Disposiciones de carácter general aplicables a los proveedores de precios."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804788&fecha=24/11/2026",
+      "code": "5804788",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "5ad21760e8dbe25cfd75b9a38a896ba973c7f63c2b0c2329de1992c886dbcad7",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "resolucion",
+          "name": "document_type",
+          "rule_id": "document_type.resolucion",
+          "rule_version": "1.0",
+          "value": "resolucion"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Resolución que modifica las Disposiciones de carácter general aplicables a los Sistemas Internacionales de Cotizaciones.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Resolución que modifica las Disposiciones de carácter general aplicables a los Sistemas Internacionales de Cotizaciones."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804790&fecha=24/11/2026",
+      "code": "5804790",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE ECONOMIA",
+      "record_sha256": "d97af4a7f0adf9cdfc3bfdd18b46baf0e7a5e75da275ec7bb11f4d4dc14e66e3",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "comercio exterior",
+          "name": "topic",
+          "rule_id": "topic.trade",
+          "rule_version": "1.0",
+          "value": "trade"
+        }
+      ],
+      "title": "Acuerdo que modifica el diverso por el que la Secretaría de Economía emite reglas y criterios de carácter general en materia de comercio exterior."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804791&fecha=24/11/2026",
+      "code": "5804791",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE ECONOMIA",
+      "record_sha256": "f82e3ffdd23e4a3768087fb218d6e128f1222d85cc398da83f1bcf96222bbea8",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo que modifica al diverso por el que se dan a conocer los Números de Identificación Comercial (NICO) y sus tablas de correlación.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo que modifica al diverso por el que se dan a conocer los Números de Identificación Comercial (NICO) y sus tablas de correlación."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804793&fecha=24/11/2026",
+      "code": "5804793",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO",
+      "record_sha256": "ec21365830266e42b2695c4d67c17886bb8c488ebe8f74d14e5bd7145bbfa14a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se dan a conocer los días del mes de diciembre de 2026 y del año 2027 que no se consideran hábiles por la Secretaría Anticorrupción y Buen Gobierno y su órgano administrativo desconcentrado.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se dan a conocer los días del mes de diciembre de 2026 y del año 2027 que no se consideran hábiles por la Secretaría Anticorrupción y Buen Gobierno y su órgano administrativo desconcentrado."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804794&fecha=24/11/2026",
+      "code": "5804794",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO",
+      "record_sha256": "241fe1b70b999a2e8b59b14f65a246de8a8b04ecfea20fe9f923ff1f8f6fb6b7",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "circular",
+          "name": "document_type",
+          "rule_id": "document_type.circular",
+          "rule_version": "1.0",
+          "value": "circular"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, a las entidades federativas, municipios, los entes públicos de unas y otros, así como a las demarcaciones territoriales de la Ciudad de México, que deberán abstenerse de aceptar propuestas y/o celebrar contratos con la empresa Heilsa Lifescience, S.A. de C.V.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, a las entidades federativas, municipios, los entes públicos de unas y otros, así como a las demarcaciones territoriales de la Ciudad de México, que deberán abstenerse de aceptar propuestas y/o celebrar contratos con la empresa Heilsa Lifescience, S.A. de C.V."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804795&fecha=24/11/2026",
+      "code": "5804795",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO",
+      "record_sha256": "80735ef19c81d350902544ee3f54c68c342897ced61dae91a6f72b6e98e047af",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "circular",
+          "name": "document_type",
+          "rule_id": "document_type.circular",
+          "rule_version": "1.0",
+          "value": "circular"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, a las empresas públicas del Estado, a la Fiscalía General de la República, a las entidades federativas y sus municipios, así como a las demarcaciones territoriales de la Ciudad de México, la sentencia del 16 de junio de 2026, dictada por la Sala Regional en Guanajuato II del Tribunal Federal de Justicia Administrativa, en el juicio de nulidad número 1898/25-30-01-6-OT, interpuesto por la empresa New Pharma, S.A. de C.V., en la que se declaró la nulidad lisa y llana de la resolución impugnada de fecha 29 de mayo de 2025, dictada por el titular del Área de Responsabilidades del Órgano Interno de Control en el Instituto Mexicano del Seguro Social, en el expediente número PISI-A-NC-DS-0032/ 2023.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, a las empresas públicas del Estado, a la Fiscalía General de la República, a las entidades federativas y sus municipios, así como a las demarcaciones territoriales de la Ciudad de México, la sentencia del 16 de junio de 2026, dictada por la Sala Regional en Guanajuato II del Tribunal Federal de Justicia Administrativa, en el juicio de nulidad número 1898/25-30-01-6-OT, interpuesto por la empresa New Pharma, S.A. de C.V., en la que se declaró la nulidad lisa y llana de la resolución impugnada de fecha 29 de mayo de 2025, dictada por el titular del Área de Responsabilidades del Órgano Interno de Control en el Instituto Mexicano del Seguro Social, en el expediente número PISI-A-NC-DS-0032/ 2023."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804797&fecha=24/11/2026",
+      "code": "5804797",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE EDUCACION PUBLICA",
+      "record_sha256": "ded0aae51bb23f32fdd1874894469ea26b0c93daa6e60d049a8049bc7618c4ab",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Fe de erratas al Acuerdo por el que se delega la facultad que se indica a la persona Titular de la Dirección General del Bachillerato, publicado el 2 de noviembre de 2026.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Fe de erratas al Acuerdo por el que se delega la facultad que se indica a la persona Titular de la Dirección General del Bachillerato, publicado el 2 de noviembre de 2026.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Fe de erratas al Acuerdo por el que se delega la facultad que se indica a la persona Titular de la Dirección General del Bachillerato, publicado el 2 de noviembre de 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804799&fecha=24/11/2026",
+      "code": "5804799",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL",
+      "record_sha256": "120313e403497014e8e5c74f067397d55ab2aa90479bb4f3cc3c4349424a7519",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "NOM-005-STPS-2025, Manejo de sustancias químicas peligrosas, o sus mezclas, en los centros de trabajo-Condiciones y procedimientos de seguridad y salud.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "salud",
+          "name": "topic",
+          "rule_id": "topic.health",
+          "rule_version": "1.0",
+          "value": "health"
+        }
+      ],
+      "title": "NOM-005-STPS-2025, Manejo de sustancias químicas peligrosas, o sus mezclas, en los centros de trabajo-Condiciones y procedimientos de seguridad y salud."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804801&fecha=24/11/2026",
+      "code": "5804801",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO",
+      "record_sha256": "4e19404b8cfc4bde9fb0a58d57d780d98b8077005806efa6ba6811d7dc1e52f0",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Coordinación que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Hidalgo y los municipios de Calnali, Chapulhuacán, Eloxochitlán, Huautla, Huazalingo, Huehuetla, Jacala de Ledezma, Juárez Hidalgo, La Misión, Molango de Escamilla, Nicolás Flores, Pacula, San Agustín Metzquititlán, San Bartolo Tutotepec, Tenango de Doria, Tepehuacán de Guerrero, Tianguistengo, Tlahuiltepa, Tlanchinol, Xochiatipan, Xochicoatlán, Yahualica y Zacualtipán de Ángeles, para la implementación del Proyecto Extraordinario Apoyo único para hogares afectados por las lluvias intensas de octubre de 2025 en los estados de Hidalgo, Puebla y Veracruz.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Hidalgo y los municipios de Calnali, Chapulhuacán, Eloxochitlán, Huautla, Huazalingo, Huehuetla, Jacala de Ledezma, Juárez Hidalgo, La Misión, Molango de Escamilla, Nicolás Flores, Pacula, San Agustín Metzquititlán, San Bartolo Tutotepec, Tenango de Doria, Tepehuacán de Guerrero, Tianguistengo, Tlahuiltepa, Tlanchinol, Xochiatipan, Xochicoatlán, Yahualica y Zacualtipán de Ángeles, para la implementación del Proyecto Extraordinario Apoyo único para hogares afectados por las lluvias intensas de octubre de 2025 en los estados de Hidalgo, Puebla y Veracruz."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804802&fecha=24/11/2026",
+      "code": "5804802",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO",
+      "record_sha256": "778faf5f677b7030a96f9bb431f3424f8ac0ae5adbf9c102033ae535d7875290",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Coordinación que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Puebla y los municipios de Chiconcuautla, Honey, Naupan, Pahuatlán, Pantepec, Tlacuilotepec, Tlaxco, Xicotepec de Juárez y Zihuateutla, para la implementación del Proyecto Extraordinario Apoyo único para hogares afectados por las lluvias intensas de octubre de 2025 en los estados de Hidalgo, Puebla y Veracruz.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Puebla y los municipios de Chiconcuautla, Honey, Naupan, Pahuatlán, Pantepec, Tlacuilotepec, Tlaxco, Xicotepec de Juárez y Zihuateutla, para la implementación del Proyecto Extraordinario Apoyo único para hogares afectados por las lluvias intensas de octubre de 2025 en los estados de Hidalgo, Puebla y Veracruz."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804804&fecha=24/11/2026",
+      "code": "5804804",
+      "issuer_primary": "ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS",
+      "issuer_secondary": "SISTEMA PUBLICO DE RADIODIFUSION DEL ESTADO MEXICANO",
+      "record_sha256": "1011de25d33ea7ce3fbbbddaa0c9f18a82c591c65d0ebe99222112f36048b604",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se emite y se da a conocer el Código de Conducta del Sistema Público de Radiodifusión del Estado Mexicano.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se emite y se da a conocer el Código de Conducta del Sistema Público de Radiodifusión del Estado Mexicano."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804806&fecha=24/11/2026",
+      "code": "5804806",
+      "issuer_primary": "PODER JUDICIAL",
+      "issuer_secondary": "ORGANO DE ADMINISTRACION JUDICIAL",
+      "record_sha256": "e49fe24424c6a27a8864397a8c65cf285f02af1b4ae38bc73b7c611b2a9c4c35",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "aguascalientes",
+          "name": "topic",
+          "rule_id": "topic.environment",
+          "rule_version": "1.0",
+          "value": "environment"
+        }
+      ],
+      "title": "Acuerdo del Pleno del Órgano de Administración Judicial por el que se aprueba la Declaratoria conjunta de interconexión tecnológica entre el Órgano de Administración Judicial del Poder Judicial de la Federación y el rgano de Administración Judicial del Poder Judicial del Estado de Aguascalientes."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804808&fecha=24/11/2026",
+      "code": "5804808",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "177f9f362a057243d24869da9d347dec4140af647858e944b7b753b6729fbd79",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804809&fecha=24/11/2026",
+      "code": "5804809",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "3fb642165d0d01252d83c26c0f99cdc0be219e769af8cccca3ae56a8261f7122",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804810&fecha=24/11/2026",
+      "code": "5804810",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "c209ff023da00c1b90bb63b20747301f7dbdfbf0d75caa12ffaaf71601b47a56",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5804813&fecha=24/11/2026",
+      "code": "5804813",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "7522be11b0ba885cb5cb0fe6098747c2c0ba113ae2741334b3d7d59e8be6eaef",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se emiten los Lineamientos sobre elección consecutiva para diputaciones federales por ambos principios, para el Proceso Electoral Federal 2026-2027.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se emiten los Lineamientos sobre elección consecutiva para diputaciones federales por ambos principios, para el Proceso Electoral Federal 2026-2027."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=24",
+    "name": "DOF official index",
+    "publication_date": "2026-11-24"
+  }
+}
