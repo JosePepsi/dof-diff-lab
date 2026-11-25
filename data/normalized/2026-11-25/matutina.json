@@ -1,0 +1,618 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805243&fecha=25/11/2026",
+      "code": "5805243",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "7400ac7c148bbcb6722ccc0f117bbd83fdbed9a6c61bdfd9f69dd624bb0a92d5",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio Marco de Coordinación que celebran la Secretaría de Gobernación y el Estado de Tabasco, que tiene por objeto coordinar y evaluar la aplicación de la política de población en el estado.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio Marco de Coordinación que celebran la Secretaría de Gobernación y el Estado de Tabasco, que tiene por objeto coordinar y evaluar la aplicación de la política de población en el estado."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805244&fecha=25/11/2026",
+      "code": "5805244",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "20bc4ca4321ad684839e9800157a9b37932f066ccd8888cf6a11dc01e163bea4",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Hipólito Meza Rodríguez y firmantes de la agrupación denominada Iglesia Cristiana El León de Yehuda.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Hipólito Meza Rodríguez y firmantes de la agrupación denominada Iglesia Cristiana El León de Yehuda."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805245&fecha=25/11/2026",
+      "code": "5805245",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "8760d72c7796ea6d07b7717a902b5644d4b5a94a9649ffa476eac237725cb6c8",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Gaspar Reyes Valencia Solís y firmantes de la agrupación denominada Iglesia Renacer.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Gaspar Reyes Valencia Solís y firmantes de la agrupación denominada Iglesia Renacer."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805246&fecha=25/11/2026",
+      "code": "5805246",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "2d1d97899101a643d028d867c823e835683a876e30a6fff5bb1f5f86038969f5",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Miguel Navarro López y firmantes de la agrupación denominada Ministerio Internacional Calvary Chapel.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Miguel Navarro López y firmantes de la agrupación denominada Ministerio Internacional Calvary Chapel."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805248&fecha=25/11/2026",
+      "code": "5805248",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MARINA",
+      "record_sha256": "323be54079c0b8271d47dd0768ff2db6779684012d1f73b404849eb1b6af9e31",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Prórroga y Modificación al Título de Concesión que otorga la Secretaría de Marina a favor de la persona moral Conjunto Desarrollo Marina Mar, S.A. de C.V., para usar, aprovechar y explotar bienes del dominio público de la Federación, consistentes en zona de agua de mar territorial para la operación de una marina artificial, de uso particular, colindante con el Lote 14, de la Villa 8 del Fraccionamiento Náutico Turístico Nuevo Vallarta, Puerto Nuevo Vallarta, Municipio de Bahía de Banderas, Estado de Nayarit.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modificacion",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "agua",
+          "name": "topic",
+          "rule_id": "topic.environment",
+          "rule_version": "1.0",
+          "value": "environment"
+        }
+      ],
+      "title": "Prórroga y Modificación al Título de Concesión que otorga la Secretaría de Marina a favor de la persona moral Conjunto Desarrollo Marina Mar, S.A. de C.V., para usar, aprovechar y explotar bienes del dominio público de la Federación, consistentes en zona de agua de mar territorial para la operación de una marina artificial, de uso particular, colindante con el Lote 14, de la Villa 8 del Fraccionamiento Náutico Turístico Nuevo Vallarta, Puerto Nuevo Vallarta, Municipio de Bahía de Banderas, Estado de Nayarit."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805250&fecha=25/11/2026",
+      "code": "5805250",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "9c1cf60df93f73ffbe1e9888318c331cd08d14109d29c022969b739c59f3177a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "resolucion",
+          "name": "document_type",
+          "rule_id": "document_type.resolucion",
+          "rule_version": "1.0",
+          "value": "resolucion"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "hacienda",
+          "name": "topic",
+          "rule_id": "topic.fiscal",
+          "rule_version": "1.0",
+          "value": "fiscal"
+        }
+      ],
+      "title": "Resolución que modifica el Anexo 2 de la diversa que establece el mecanismo para garantizar el pago de contribuciones en mercancías sujetas a precios estimados por la Secretaría de Hacienda y Crédito Público."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805251&fecha=25/11/2026",
+      "code": "5805251",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "4f0109f29f865c0e832a06c51e01f448fc679c177275cad8a804b5deb4a24790",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Oficio mediante el cual se revoca la autorización otorgada a Unión de Crédito de Hidalgo, S.A. de C.V., para continuar realizando operaciones como unión de crédito.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Oficio mediante el cual se revoca la autorización otorgada a Unión de Crédito de Hidalgo, S.A. de C.V., para continuar realizando operaciones como unión de crédito.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Oficio mediante el cual se revoca la autorización otorgada a Unión de Crédito de Hidalgo, S.A. de C.V., para continuar realizando operaciones como unión de crédito."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805253&fecha=25/11/2026",
+      "code": "5805253",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES",
+      "record_sha256": "97bae3f788fa8529d20bddcd98d84ffa6aad42f1c6fd0175764a4f6621f2e089",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "norma",
+          "name": "document_type",
+          "rule_id": "document_type.norma",
+          "rule_version": "1.0",
+          "value": "norma"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Norma Oficial Mexicana NOM-023-ASEA-2026, Estaciones de Servicio con fin Específico para Expendio al Público de gasolinas y/o diésel para Vehículos Automotores (cancela a la NOM-005-ASEA-2016, Diseño, construcción, operación y Mantenimiento de Estaciones de Servicio para almacenamiento y expendio de diésel y gasolinas).",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Norma Oficial Mexicana NOM-023-ASEA-2026, Estaciones de Servicio con fin Específico para Expendio al Público de gasolinas y/o diésel para Vehículos Automotores (cancela a la NOM-005-ASEA-2016, Diseño, construcción, operación y Mantenimiento de Estaciones de Servicio para almacenamiento y expendio de diésel y gasolinas)."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805255&fecha=25/11/2026",
+      "code": "5805255",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "CONSEJO DE SALUBRIDAD GENERAL",
+      "record_sha256": "ad4fe69ad43ccce55aa084a9a599d813a19d8806e1bd3af5e8550e59ad8129e1",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "salud",
+          "name": "topic",
+          "rule_id": "topic.health",
+          "rule_version": "1.0",
+          "value": "health"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran el Consejo de Salubridad General, la Secretaría de Salud y los Servicios de Salud de Coahuila de Zaragoza, que tiene por objeto establecer las bases, mecanismos y compromisos para postular a personas candidatas a integrarse al padrón de personas auditoras del MOCEBPASS."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805257&fecha=25/11/2026",
+      "code": "5805257",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "e950eb21a4fe1727d813732c81eda6ae07dda8738aebcfd9458f6aae36dc49c2",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805258&fecha=25/11/2026",
+      "code": "5805258",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "6a92ade46691445bb6bdd6eb617de428bd2153e8ad768e4f5810ded377b86d0b",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805259&fecha=25/11/2026",
+      "code": "5805259",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "ec76678919c284447defeea4f12800ed75b33013e1d5cd26fcea9259e2091556",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805260&fecha=25/11/2026",
+      "code": "5805260",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "8f92071521f7f726e9797a453f73e7719123d7c16b1cfbf928ff5388ade7b1fe",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Costo porcentual promedio de captación de los pasivos en moneda nacional a cargo de las instituciones de banca múltiple del país (CPP).",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Costo porcentual promedio de captación de los pasivos en moneda nacional a cargo de las instituciones de banca múltiple del país (CPP).",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Costo porcentual promedio de captación de los pasivos en moneda nacional a cargo de las instituciones de banca múltiple del país (CPP)."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805261&fecha=25/11/2026",
+      "code": "5805261",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "11f209740f364823b6d26b35dbb4bb74f228c030cf324f98e14b2aee644e161d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Costo de captación a plazo de pasivos denominados en unidades de inversión a cargo de las instituciones de banca múltiple del país (CCP-UDIS).",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "plazo",
+          "name": "signal",
+          "rule_id": "signal.contains_deadline",
+          "rule_version": "1.0",
+          "value": "contains_deadline"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Costo de captación a plazo de pasivos denominados en unidades de inversión a cargo de las instituciones de banca múltiple del país (CCP-UDIS).",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Costo de captación a plazo de pasivos denominados en unidades de inversión a cargo de las instituciones de banca múltiple del país (CCP-UDIS)."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805262&fecha=25/11/2026",
+      "code": "5805262",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "809e9c619482235428d10d89c96efc1d95f290c06587bded645cc070dddd113d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Costo de captación a plazo de pasivos denominados en moneda nacional a cargo de las instituciones de banca múltiple del país (CCP).",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "plazo",
+          "name": "signal",
+          "rule_id": "signal.contains_deadline",
+          "rule_version": "1.0",
+          "value": "contains_deadline"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Costo de captación a plazo de pasivos denominados en moneda nacional a cargo de las instituciones de banca múltiple del país (CCP).",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Costo de captación a plazo de pasivos denominados en moneda nacional a cargo de las instituciones de banca múltiple del país (CCP)."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805263&fecha=25/11/2026",
+      "code": "5805263",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "ff859a8ce3260d9e67c8fa2557a3ad1b2808c05798bb0b39d3d6889ec851426d",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Valor de la unidad de inversión.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Valor de la unidad de inversión.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Valor de la unidad de inversión."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805265&fecha=25/11/2026",
+      "code": "5805265",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "COMISION NACIONAL DE LOS DERECHOS HUMANOS",
+      "record_sha256": "50488953e880b32d8a82d9d6ca5112c8f553cd05265bff8aad02eb3f05a9fed6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo mediante el cual se instruye la implementación de diversas acciones para el uso de la Firma Electrónica Avanzada en la Comisión Nacional de los Derechos Humanos.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo mediante el cual se instruye la implementación de diversas acciones para el uso de la Firma Electrónica Avanzada en la Comisión Nacional de los Derechos Humanos."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805267&fecha=25/11/2026",
+      "code": "5805267",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "FISCALIA GENERAL DE LA REPUBLICA",
+      "record_sha256": "19b3565ea11f2683f7b9bd4d0d1dabd9e4c3e8392dce715d828674472e38207a",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "modifica",
+          "name": "signal",
+          "rule_id": "signal.possible_modification",
+          "rule_version": "1.0",
+          "value": "possible_modification"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo A/004/2026 que modifica el Diverso A/002/2021 por el que se determina la integración, administración y operación de los recursos del fideicomiso público denominado Fondo para el Mejoramiento de la Procuración de Justicia.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo A/004/2026 que modifica el Diverso A/002/2021 por el que se determina la integración, administración y operación de los recursos del fideicomiso público denominado Fondo para el Mejoramiento de la Procuración de Justicia."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805269&fecha=25/11/2026",
+      "code": "5805269",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL DE ESTADISTICA Y GEOGRAFIA",
+      "record_sha256": "971b21a685dbe5eb1a15f4ff4a78191b9fce8c8a13c168dc86bc3d13a4aa81db",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Índice nacional de precios al consumidor.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Índice nacional de precios al consumidor.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Índice nacional de precios al consumidor."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805272&fecha=25/11/2026",
+      "code": "5805272",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "57290cd7b5499a9446e55226c7db2f94dff443bebc941f3332266c5f15eb49da",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se determinan los topes máximos de gastos de precampaña por precandidatura y de campaña para la elección de diputaciones federales por el principio de mayoría relativa, correspondientes al Proceso Electoral Federal 2026-2027.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se determinan los topes máximos de gastos de precampaña por precandidatura y de campaña para la elección de diputaciones federales por el principio de mayoría relativa, correspondientes al Proceso Electoral Federal 2026-2027."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805273&fecha=25/11/2026",
+      "code": "5805273",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "384fbe6747a773b4b7c4dd859b8a385330dbc9cade22187ba663f9bf344533f6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se aprueban los Lineamientos para la verificación del cumplimiento del porcentaje de apoyo de la ciudadanía inscrita en la Lista Nominal de Electores, que se requiere para el registro de candidaturas independientes en los Procesos Electorales Locales 2026-2027, mediante el uso de la Aplicación Móvil \"Apoyo Ciudadano-INE\".",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se aprueban los Lineamientos para la verificación del cumplimiento del porcentaje de apoyo de la ciudadanía inscrita en la Lista Nominal de Electores, que se requiere para el registro de candidaturas independientes en los Procesos Electorales Locales 2026-2027, mediante el uso de la Aplicación Móvil \"Apoyo Ciudadano-INE\"."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=25",
+    "name": "DOF official index",
+    "publication_date": "2026-11-25"
+  }
+}

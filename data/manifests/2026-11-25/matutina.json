@@ -1,0 +1,48 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-25T12:48:08+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 4,
+      "aviso": 3,
+      "convenio": 2,
+      "norma": 1,
+      "otro": 10,
+      "resolucion": 1
+    },
+    "by_issuer": {
+      "BANCO DE MEXICO": 7,
+      "COMISION NACIONAL DE LOS DERECHOS HUMANOS": 1,
+      "CONSEJO DE SALUBRIDAD GENERAL": 1,
+      "FISCALIA GENERAL DE LA REPUBLICA": 1,
+      "INSTITUTO NACIONAL DE ESTADISTICA Y GEOGRAFIA": 1,
+      "INSTITUTO NACIONAL ELECTORAL": 2,
+      "SECRETARIA DE GOBERNACION": 4,
+      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 2,
+      "SECRETARIA DE MARINA": 1,
+      "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES": 1
+    },
+    "by_topic": {
+      "environment": 1,
+      "financial": 1,
+      "fiscal": 1,
+      "health": 1,
+      "other": 17
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-25/matutina.json",
+  "normalized_sha256": "a2ddf0e9f1a170483fd33e9280c9f52cc685e4b9d694ab75efb21edca4f8541a",
+  "note_count": 21,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-25",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=25",
+    "raw_retained": false,
+    "raw_sha256": "bd1ee0fe0091f5a0882e7caf22b2a396a7283cbe429448a7973cb8ef82f947d8",
+    "raw_size": 87478
+  },
+  "status": "changed"
+}
