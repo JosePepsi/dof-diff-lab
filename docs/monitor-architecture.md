@@ -40,8 +40,26 @@ Tavily is outside the ingestion trust path. The optional `discover` command uses
 | `corpus.py` | Rebuildable SQLite FTS5 index over normalized records. |
 | `discovery.py` | Optional Tavily URL discovery with an official-host allowlist. |
 | `__main__.py` | Thin package entrypoint forwarding to the intelligence CLI. |
+| `web_watch.py` | Independent polling of verified official SNICE, ANAM, SAT and VUCEM pages/documents; writes separate snapshots and transition diffs. |
 
 The project intentionally has no Python runtime dependencies outside the standard library. SQLite FTS5 is supplied by CPython's SQLite build. Tavily is called through `urllib`, so no SDK is required.
+
+## Monitoreo complementario de portales
+
+`.github/workflows/web-watch.yml` polls the sources below every six hours and can also be started manually. It uses only Python's standard library and commits evidence under `data/web-watch/`. Both publication workflows share a concurrency group so they do not race while pushing commits. The watcher fails the run on HTTP, MIME, decoding, parsing, redirect, or prior-state errors; it does not reinterpret an unavailable source as “no change.”
+
+| Source | Watched evidence | Coverage boundary |
+|---|---|---|
+| SNICE home, DOF history, legal library, and notices/permits | Visible page text hash and official linked titles/URLs | A page change is a review lead, not proof of a new or legally effective instrument. |
+| ANAM RSS feed | RSS item title, official link, date and summary | The official feed was empty when verified; no SAT classification-criteria feed was confirmed. |
+| SAT annual RGCE index, 2026 RGCE and Anexo 22 PDFs | Relevant annual-index links filtered by RGCE (including its Anexo 22), NICO and classification terms, plus PDF SHA-256 and byte length | The official landing page is followed through its meta-refresh; fixed 2026 PDFs detect replacement at those locations, not every future document. |
+| VUCEM home page | Visible text hash and official linked titles/URLs | No stable public Anexo 22 catalog was confirmed; the page monitor is not a catalog monitor. |
+
+HTML is parsed without executing scripts. Non-official links are counted but excluded. Transient network errors and HTTP 408/425/429/5xx responses are retried up to three times with bounded exponential delay; permanent HTTP errors fail immediately. PDFs are downloaded only in memory to hash them; the repository stores no raw page or PDF bytes. Snapshots contain source metadata, hashes and extracted official link records. A baseline is recorded on first success; later changes create a transition JSON under `data/web-watch/diffs/<source-id>/`. An unchanged poll does not rewrite files, so it creates no commit.
+
+Sources are polled independently within the run. A failed source makes the job fail, while successful sources still save their snapshots; an `always()` publication step commits only those evidence files and does not turn the failed run green. This avoids losing valid changes from other portals while keeping an outage visible in Actions.
+
+This monitoring path is deliberately separate from `data/normalized/`, manifests and DOF publication diffs. It does not update legal catalogs, infer tariff effects, or replace DOF/SIDOF as the primary source. The scheduled job runs at 03:23, 09:23, 15:23 and 21:23 UTC.
 
 ## Source policy
 
@@ -54,6 +72,8 @@ Each SIDOF record preserves a human-facing canonical URL plus its machine-facing
 GitHub Actions checks the publication day in three windows: 16:17, 22:17 and 03:17 UTC. The publication date is resolved in `America/Mexico_City`, so the after-midnight UTC check still targets the intended Mexican publication date.
 
 Repeated runs are idempotent. Existing normalized data for an edition is loaded before writing and compared by stable note identity plus record hash. A legitimate absence is `no_edition`; malformed weekday responses and source failures remain errors.
+
+The Pages deployment runs only when the generated `site/` content changes, avoiding unnecessary deployment requests on repeated same-day captures. It uses a pinned `actions/deploy-pages` commit and makes at most three attempts, with bounded 15- and 30-second waits after failures. This helps recover from transient artifact-metadata API errors like those observed on 2026-11-25 and 2026-11-26; it cannot repair a persistent GitHub outage. If the last attempt fails, the job remains failed and deployment errors are never hidden as success.
 
 ### Ausencia confirmada (`no_edition`)
 

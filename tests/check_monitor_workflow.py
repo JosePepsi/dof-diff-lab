@@ -25,6 +25,7 @@ def main() -> None:
         "PUBLICATION_DATE:",
         "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
         'date -u -d "$publication_date"',
+        '[[ "$(date -u -d "$publication_date" +%F 2>/dev/null)" != "$publication_date" ]]',
         "python3 -m dof_diff_lab.intelligence sync",
         "python3 -m dof_diff_lab.intelligence build",
         "--database tmp/dof-corpus.sqlite3",
@@ -36,6 +37,10 @@ def main() -> None:
         "git pull --rebase origin main",
         "if-no-files-found: error",
         "needs: [capture, publish]",
+        "site_changed: ${{ steps.publication.outputs.site_changed }}",
+        "if: needs.publish.outputs.site_changed == 'true'",
+        "echo \"site_changed=false\" >> \"$GITHUB_OUTPUT\"",
+        "echo \"site_changed=true\" >> \"$GITHUB_OUTPUT\"",
     )
     for fragment in required_fragments:
         assert fragment in text, fragment
@@ -57,9 +62,16 @@ def main() -> None:
         "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
         "45bfe0192ca1faeb007ade9deae92b16b8254a0d",
         "fc324d3547104276b827a68afc52ff2a11cc49c9",
-        "cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+        "368f82528645a54fb793d4d04e342629a3f51346",
     ):
         assert action_commit in text or action_commit in check_text, action_commit
+    assert "continue-on-error: true" in text
+    assert "steps.deployment.outcome == 'failure'" in text
+    assert "steps.deployment.outputs.page_url || steps.deployment_retry_action.outputs.page_url || steps.deployment_final_action.outputs.page_url" in text
+    assert "steps.deployment_retry_action.outcome == 'failure'" in text
+    assert "sleep 15" in text
+    assert "sleep 30" in text
+    assert text.count("actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346") == 3
     for command in (
         "python3 tests/check_entrypoint.py",
         "python3 tests/check_monitor.py",

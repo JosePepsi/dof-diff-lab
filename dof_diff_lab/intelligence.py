@@ -5,18 +5,18 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 import json
 from pathlib import Path
+import sqlite3
 import sys
 from typing import Callable
 from urllib.error import HTTPError
 
 from .calendar_mx import no_edition_basis
 from .corpus import build_corpus, search_corpus
-from .discovery import tavily_search
+from .discovery import DiscoveryDisabled, tavily_search
 from .monitor import (
     SCHEMA_VERSION,
     MonitorResult,
     NoRecognizableEditionError,
-    ParseError,
     SourceResponse,
     build_index_url,
     build_insights,
@@ -311,8 +311,8 @@ def main() -> int:
             )
         else:
             result = {"urls": tavily_search(args.query)}
-    except Exception as error:
-        print(json.dumps({"error": str(error)}, ensure_ascii=False))
+    except (DiscoveryDisabled, OSError, ValueError, sqlite3.Error) as error:
+        print(json.dumps({"error": str(error)}, ensure_ascii=False), file=sys.stderr)
         return 2
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
