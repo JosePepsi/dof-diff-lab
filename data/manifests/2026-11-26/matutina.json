@@ -1,0 +1,48 @@
+{
+  "edition": "matutina",
+  "generated_at": "2026-11-26T12:26:03+00:00",
+  "insights": {
+    "by_document_type": {
+      "acuerdo": 4,
+      "aviso": 7,
+      "circular": 1,
+      "convenio": 2,
+      "otro": 5,
+      "sentencia": 1
+    },
+    "by_issuer": {
+      "AGENCIA DE TRANSFORMACION DIGITAL Y TELECOMUNICACIONES": 1,
+      "BANCO DE MEXICO": 3,
+      "CONSEJO DE SALUBRIDAD GENERAL": 1,
+      "INSTITUTO NACIONAL ELECTORAL": 2,
+      "ORGANO DE ADMINISTRACION JUDICIAL": 1,
+      "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO": 1,
+      "SECRETARIA DE CIENCIA, HUMANIDADES, TECNOLOGIA E INNOVACION": 1,
+      "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO": 1,
+      "SECRETARIA DE GOBERNACION": 4,
+      "SECRETARIA DE HACIENDA Y CREDITO PUBLICO": 2,
+      "SECRETARIA DE MARINA": 2,
+      "TRIBUNAL SUPERIOR AGRARIO": 1
+    },
+    "by_topic": {
+      "financial": 2,
+      "health": 1,
+      "other": 17
+    }
+  },
+  "normalized_path": "data/normalized/2026-11-26/matutina.json",
+  "normalized_sha256": "0fdfed140c10b6983dfbeb4698d6fcee51fa9c2efd56f6fb0f3c3e80b4a7cee5",
+  "note_count": 20,
+  "parser_version": "1.1",
+  "publication_date": "2026-11-26",
+  "schema_version": "1.1",
+  "source": {
+    "content_type": "text/html",
+    "http_status": 200,
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=26",
+    "raw_retained": false,
+    "raw_sha256": "90aefead81ba2f4d58a47a4dc7bedb6a919aece1ac7a0c6587327006618e07e3",
+    "raw_size": 89005
+  },
+  "status": "changed"
+}

@@ -1,0 +1,551 @@
+{
+  "notes": [
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805355&fecha=26/11/2026",
+      "code": "5805355",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "340df85e7204496853ce0e1c7444ecc6c5eea6b295f8e8fe88b070550d5e9783",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Convenio de Coordinación que celebran la Secretaría de Gobernación y el Estado de Morelos, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre las personas usuarias de la JO Morelos.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran la Secretaría de Gobernación y el Estado de Morelos, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre las personas usuarias de la JO Morelos."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805356&fecha=26/11/2026",
+      "code": "5805356",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "1298d312e8f3b383c210a30637f1604c861974199341d2831b7ce3b342894910",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó la C. María Concepción Puc Kantun y firmantes de la agrupación denominada Ministerio Internacional Apasionado por Cristo.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó la C. María Concepción Puc Kantun y firmantes de la agrupación denominada Ministerio Internacional Apasionado por Cristo."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805357&fecha=26/11/2026",
+      "code": "5805357",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "f9463627634c7335856393590c122f94a7a0ef3d69a9ae53ad316754ba8ea0d0",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa de una entidad interna de Iglesia Nacional Presbiteriana de México, A.R., denominada Iglesia Presbiteriana Monte Sinaí.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa de una entidad interna de Iglesia Nacional Presbiteriana de México, A.R., denominada Iglesia Presbiteriana Monte Sinaí."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805358&fecha=26/11/2026",
+      "code": "5805358",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE GOBERNACION",
+      "record_sha256": "58baef36c82e9b481e2cc1d4cec1c96f683e1affb013ad3eff57905404304e6b",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Mateo Díaz Díaz y firmantes de la agrupación denominada Ministerios Vino Nuevo.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer el extracto de la solicitud de registro constitutivo como asociación religiosa que presentó el C. Mateo Díaz Díaz y firmantes de la agrupación denominada Ministerios Vino Nuevo."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805360&fecha=26/11/2026",
+      "code": "5805360",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MARINA",
+      "record_sha256": "20ca51f3816a00d2cf6382f0f123bf3f9050c1dffbc9a2bda434ae740cd44e7b",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se dan a conocer las tarifas autorizadas para el cobro por el uso de infraestructura portuaria, aplicables en el recinto portuario de Lázaro Cárdenas, Mich.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se dan a conocer las tarifas autorizadas para el cobro por el uso de infraestructura portuaria, aplicables en el recinto portuario de Lázaro Cárdenas, Mich."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805361&fecha=26/11/2026",
+      "code": "5805361",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE MARINA",
+      "record_sha256": "9671a65be190a73489b2bf5674e055bd686fd5f96088d8972868ccfd1e7ea6d6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se da a conocer la página institucional donde puede consultarse el Manual de Organización de la Administración del Sistema Portuario Nacional Puerto Chiapas, S.A. de C.V.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se da a conocer la página institucional donde puede consultarse el Manual de Organización de la Administración del Sistema Portuario Nacional Puerto Chiapas, S.A. de C.V."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805363&fecha=26/11/2026",
+      "code": "5805363",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "cb8dc8c145f3ab0b0b10912e0b33416b8afe093860f2d12c32e0e5fc21ccad07",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo por el que se dan a conocer los estímulos fiscales a la gasolina y al diésel en los sectores pesquero y agropecuario para el mes de diciembre de 2026.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo por el que se dan a conocer los estímulos fiscales a la gasolina y al diésel en los sectores pesquero y agropecuario para el mes de diciembre de 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805364&fecha=26/11/2026",
+      "code": "5805364",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO",
+      "record_sha256": "9f2fc502d81594b25725c8dcb88ac2492dfe4bfb12650bab0a36ef15278f68ec",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Disposiciones de carácter general que señalan los días del año 2027 en que las entidades financieras sujetas a la supervisión de la Comisión Nacional Bancaria y de Valores deberán cerrar sus puertas y suspender sus operaciones.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "financieras",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Disposiciones de carácter general que señalan los días del año 2027 en que las entidades financieras sujetas a la supervisión de la Comisión Nacional Bancaria y de Valores deberán cerrar sus puertas y suspender sus operaciones."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805366&fecha=26/11/2026",
+      "code": "5805366",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA ANTICORRUPCION Y BUEN GOBIERNO",
+      "record_sha256": "66af70474e083e6429db380476ff2e21642138b1553ef80be96ae9beb56c9179",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "circular",
+          "name": "document_type",
+          "rule_id": "document_type.circular",
+          "rule_version": "1.0",
+          "value": "circular"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, empresas públicas del Estado, Fiscalía General de la República, entidades federativas y sus municipios, así como demarcaciones territoriales de la Ciudad de México, que deberán abstenerse de aceptar propuestas o celebrar contratos con la empresa Brifel Projects, S.A.S. de C.V.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Circular por la que se comunica a las dependencias y entidades de la Administración Pública Federal, empresas públicas del Estado, Fiscalía General de la República, entidades federativas y sus municipios, así como demarcaciones territoriales de la Ciudad de México, que deberán abstenerse de aceptar propuestas o celebrar contratos con la empresa Brifel Projects, S.A.S. de C.V."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805368&fecha=26/11/2026",
+      "code": "5805368",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE CIENCIA, HUMANIDADES, TECNOLOGIA E INNOVACION",
+      "record_sha256": "c80abe45ce63d5fef1dd5a255ef1e0658ad7f6fc813f8a8f0a3667f401b88ab2",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso mediante el cual se informa la publicación del Código de Conducta del Instituto Potosino de Investigación Científica y Tecnológica A.C.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso mediante el cual se informa la publicación del Código de Conducta del Instituto Potosino de Investigación Científica y Tecnológica A.C."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805370&fecha=26/11/2026",
+      "code": "5805370",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "SECRETARIA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO",
+      "record_sha256": "fad92d4e6b3b909cfd324ddc8dbb4643269afcd821aadfec0e985c566cefba1c",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "aviso",
+          "name": "document_type",
+          "rule_id": "document_type.aviso",
+          "rule_version": "1.0",
+          "value": "aviso"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Aviso por el que se dan a conocer los Protocolos del Proceso de Consulta Previa, Libre e Informada para la actualización del Programa de Ordenación de la Zona Metropolitana del Valle de México suscritos con pueblos y barrios originarios, comunidades indígenas y comunidades indígenas residentes en las demarcaciones territoriales Azcapotzalco, Benito Juárez, Cuauhtémoc, Gustavo A. Madero, Iztacalco, Miguel Hidalgo y Venustiano Carranza de la Ciudad de México; en los municipios de Chiautla, Chiconcuac, Ecatepec de Morelos, Ixtapaluca, Naucalpan de Juárez, Teotihuacán, Texcoco y Villa del Carbón del Estado de México; en el Municipio de Tula de Allende del Estado de Hidalgo; y en el Municipio de Huitzilac del Estado de Morelos.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Aviso por el que se dan a conocer los Protocolos del Proceso de Consulta Previa, Libre e Informada para la actualización del Programa de Ordenación de la Zona Metropolitana del Valle de México suscritos con pueblos y barrios originarios, comunidades indígenas y comunidades indígenas residentes en las demarcaciones territoriales Azcapotzalco, Benito Juárez, Cuauhtémoc, Gustavo A. Madero, Iztacalco, Miguel Hidalgo y Venustiano Carranza de la Ciudad de México; en los municipios de Chiautla, Chiconcuac, Ecatepec de Morelos, Ixtapaluca, Naucalpan de Juárez, Teotihuacán, Texcoco y Villa del Carbón del Estado de México; en el Municipio de Tula de Allende del Estado de Hidalgo; y en el Municipio de Huitzilac del Estado de Morelos."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805372&fecha=26/11/2026",
+      "code": "5805372",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "AGENCIA DE TRANSFORMACION DIGITAL Y TELECOMUNICACIONES",
+      "record_sha256": "bfb51486479b315660760ea9951485ba2ed958d84005a3f2d0ae663113045456",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Manual de Organización General de la Agencia de Transformación Digital y Telecomunicaciones.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Manual de Organización General de la Agencia de Transformación Digital y Telecomunicaciones.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Manual de Organización General de la Agencia de Transformación Digital y Telecomunicaciones."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805374&fecha=26/11/2026",
+      "code": "5805374",
+      "issuer_primary": "PODER EJECUTIVO",
+      "issuer_secondary": "CONSEJO DE SALUBRIDAD GENERAL",
+      "record_sha256": "43bbbae24a96763a54babf6d427a5bc779b7fcf24fa857f6a1a78d17d2db8acd",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "convenio",
+          "name": "document_type",
+          "rule_id": "document_type.convenio",
+          "rule_version": "1.0",
+          "value": "convenio"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "salud",
+          "name": "topic",
+          "rule_id": "topic.health",
+          "rule_version": "1.0",
+          "value": "health"
+        }
+      ],
+      "title": "Convenio de Coordinación que celebran el Consejo de Salubridad General y Servicios de Salud de Morelos, que tiene por objeto establecer las bases, mecanismos y compromisos para postular a personas candidatas a integrarse al padrón de personas auditoras del Modelo de Certificación y Estandarización de Buenas Prácticas en Atención de Servicios de Salud (MOCEBPASS)."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805376&fecha=26/11/2026",
+      "code": "5805376",
+      "issuer_primary": "PODER JUDICIAL",
+      "issuer_secondary": "ORGANO DE ADMINISTRACION JUDICIAL",
+      "record_sha256": "849c64773f893fdf4bef466d86efd9b2d60969fb708da39fa33eca2ff0b08fad",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo General del Pleno del Órgano de Administración Judicial relativo a la designación de las personas integrantes que formarán parte de la comisión que deberá proveer los trámites y resolver los asuntos de notoria urgencia que se presenten durante el receso correspondiente al segundo periodo de sesiones de 2026.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo General del Pleno del Órgano de Administración Judicial relativo a la designación de las personas integrantes que formarán parte de la comisión que deberá proveer los trámites y resolver los asuntos de notoria urgencia que se presenten durante el receso correspondiente al segundo periodo de sesiones de 2026."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805378&fecha=26/11/2026",
+      "code": "5805378",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "14ee9944900db097e626e5632f14c14c27b3047379fad9323e37ed0b9cef0c26",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805379&fecha=26/11/2026",
+      "code": "5805379",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "bd63c31511c1c28c5a9147a43a3b63ce3f8e2fcb539714486a3d37feef21f8fc",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Tasas de interés interbancarias de equilibrio.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Tasas de interés interbancarias de equilibrio."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805380&fecha=26/11/2026",
+      "code": "5805380",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "BANCO DE MEXICO",
+      "record_sha256": "6efbed4ab9736944e70e30067061897ff87a752e9095e3062c10ffabb3c54a30",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "low",
+          "evidence": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario.",
+          "name": "document_type",
+          "rule_id": "document_type.other",
+          "rule_version": "1.0",
+          "value": "otro"
+        },
+        {
+          "confidence": "rule_match",
+          "evidence": "tasa de interes",
+          "name": "topic",
+          "rule_id": "topic.financial",
+          "rule_version": "1.0",
+          "value": "financial"
+        }
+      ],
+      "title": "Tasa de interés interbancaria de equilibrio de fondeo a un día hábil bancario."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805382&fecha=26/11/2026",
+      "code": "5805382",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "c1742d98df3ee4e4e45a89742b602331ac6c3b9b695a54ac5d7ef496e48e8c58",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se instruye a la Junta General Ejecutiva para que, a través de la Dirección Ejecutiva del Registro Federal de Electores, realice las actividades necesarias para la elaboración y presentación del proyecto de delimitación territorial de las demarcaciones electorales del Municipio de Bahía de Banderas, Nayarit; se aprueba el Plan de Trabajo y la integración del Comité Evaluador correspondientes.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral por el que se instruye a la Junta General Ejecutiva para que, a través de la Dirección Ejecutiva del Registro Federal de Electores, realice las actividades necesarias para la elaboración y presentación del proyecto de delimitación territorial de las demarcaciones electorales del Municipio de Bahía de Banderas, Nayarit; se aprueba el Plan de Trabajo y la integración del Comité Evaluador correspondientes."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805383&fecha=26/11/2026",
+      "code": "5805383",
+      "issuer_primary": "ORGANISMOS AUTONOMOS",
+      "issuer_secondary": "INSTITUTO NACIONAL ELECTORAL",
+      "record_sha256": "ec2a65f01cd02624b776e0b20aa694d3f2b53fe6c5108b26338cfe334c3f9fa6",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "acuerdo",
+          "name": "document_type",
+          "rule_id": "document_type.acuerdo",
+          "rule_version": "1.0",
+          "value": "acuerdo"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Acuerdo del Consejo General del Instituto Nacional Electoral relativo a la designación de las presidencias de los organismos públicos locales de las entidades de Baja California Sur, Campeche, Colima, Coahuila, Puebla y Tamaulipas, así como de las consejerías electorales de los organismos públicos locales de las entidades de Chiapas, Durango, Guerrero, Hidalgo, Nayarit, Oaxaca, Puebla, Quintana Roo, Sinaloa, Tamaulipas, Tlaxcala y Veracruz.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral relativo a la designación de las presidencias de los organismos públicos locales de las entidades de Baja California Sur, Campeche, Colima, Coahuila, Puebla y Tamaulipas, así como de las consejerías electorales de los organismos públicos locales de las entidades de Chiapas, Durango, Guerrero, Hidalgo, Nayarit, Oaxaca, Puebla, Quintana Roo, Sinaloa, Tamaulipas, Tlaxcala y Veracruz."
+    },
+    {
+      "canonical_url": "https://dof.gob.mx/nota_detalle.php?codigo=5805386&fecha=26/11/2026",
+      "code": "5805386",
+      "issuer_primary": "TRIBUNAL SUPERIOR AGRARIO",
+      "issuer_secondary": null,
+      "record_sha256": "1efb8e458564165ad78ee66800a0dc584f8a201b028106fcd23497f0c336ed13",
+      "section": "UNICA SECCION",
+      "tags": [
+        {
+          "confidence": "rule_match",
+          "evidence": "sentencia",
+          "name": "document_type",
+          "rule_id": "document_type.sentencia",
+          "rule_version": "1.0",
+          "value": "sentencia"
+        },
+        {
+          "confidence": "low",
+          "evidence": "Sentencia dictada en el juicio agrario 50/99, relativo a la solicitud de dotación de tierras, promovida por un grupo de campesinos del poblado Plan de Méndez, Municipio de Cuautitlán, Jal.",
+          "name": "topic",
+          "rule_id": "topic.other",
+          "rule_version": "1.0",
+          "value": "other"
+        }
+      ],
+      "title": "Sentencia dictada en el juicio agrario 50/99, relativo a la solicitud de dotación de tierras, promovida por un grupo de campesinos del poblado Plan de Méndez, Municipio de Cuautitlán, Jal."
+    }
+  ],
+  "schema_version": "1.1",
+  "source": {
+    "edition": "matutina",
+    "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=26",
+    "name": "DOF official index",
+    "publication_date": "2026-11-26"
+  }
+}
