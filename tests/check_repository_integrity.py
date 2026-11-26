@@ -53,7 +53,7 @@ def main() -> None:
         assert manifest.get("publication_date") == path.parent.name, manifest_path
         assert manifest.get("edition") == path.stem, manifest_path
         assert manifest.get("note_count") == len(notes), manifest_path
-        assert manifest.get("normalized_path") == str(path.relative_to(ROOT)), manifest_path
+        assert manifest.get("normalized_path") == path.relative_to(ROOT).as_posix(), manifest_path
         assert manifest.get("normalized_sha256") == sha256_bytes(canonical_bytes(catalog)), manifest_path
 
     robots = ROOT / "site" / "robots.txt"

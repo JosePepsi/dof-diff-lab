@@ -1,0 +1,42 @@
+name: Monitoreo complementario de portales oficiales
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3,9,15,21 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dof-monitor-publication
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Recuperar repositorio
+        id: checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+
+      - name: Consultar fuentes oficiales
+        run: python3 -m dof_diff_lab.web_watch --root .
+
+      - name: Publicar cambios de evidencia
+        if: always() && !cancelled() && steps.checkout.outcome == 'success'
+        shell: bash
+        run: |
+          git add -- data/web-watch
+          if git diff --cached --quiet -- data/web-watch; then
+            echo "Las fuentes no cambiaron; no se crea un commit."
+            exit 0
+          fi
+          git config user.name "dof-monitor[bot]"
+          git config user.email "dof-monitor[bot]@users.noreply.github.com"
+          git commit -m "data: actualizar evidencia de portales oficiales"
+          git pull --rebase origin main
+          git push

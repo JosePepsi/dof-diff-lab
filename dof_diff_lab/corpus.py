@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from contextlib import closing
 import json
 from pathlib import Path
 import re
@@ -47,7 +48,7 @@ def _fts_query(query: str) -> str | None:
 
 def build_corpus(normalized_root: Path, database_path: Path) -> int:
     database_path.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(database_path) as connection:
+    with closing(sqlite3.connect(database_path)) as connection:
         connection.executescript(SCHEMA)
         connection.execute("DELETE FROM notes_fts")
         connection.execute("DELETE FROM notes")
@@ -84,7 +85,7 @@ def search_corpus(database_path: Path, query: str, limit: int = 10) -> list[dict
     match_query = _fts_query(query)
     if match_query is None or limit < 1:
         return []
-    with sqlite3.connect(database_path) as connection:
+    with closing(sqlite3.connect(database_path)) as connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """SELECT n.code, n.publication_date, n.edition, n.issuer, n.document_type, n.topic,

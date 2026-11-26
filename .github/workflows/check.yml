@@ -33,5 +33,7 @@ jobs:
           python3 tests/check_discovery.py
           python3 tests/check_intelligence.py
           python3 tests/check_trade_watch.py
+          python3 tests/check_web_watch.py
+          python3 tests/check_web_watch_workflow.py
           python3 tests/check_repository_integrity.py
           python3 tests/check_site.py

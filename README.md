@@ -91,7 +91,17 @@ La respuesta incluye reglas coincidentes, evidencia textual exacta, enlace ofici
 
 GitHub Actions consulta la fecha de publicación mexicana a las **16:17, 22:17 y 03:17 UTC**. La corrida de las 03:17 UTC resuelve la fecha en `America/Mexico_City` para evitar consultar el día siguiente por error y dar otra ventana a ediciones vespertinas o extraordinarias.
 
-El flujo sincroniza las fuentes oficiales, construye el corpus, sube derivados verificados, confirma solo los cambios en `data/` y `site/`, y despliega el sitio estático. Las acciones están fijadas por SHA de commit y los trabajos usan permisos mínimos.
+El flujo sincroniza las fuentes oficiales, construye el corpus, sube derivados verificados, confirma solo los cambios en `data/` y `site/`, y despliega el sitio estático solo si cambió el HTML publicado. Las acciones están fijadas por SHA de commit y los trabajos usan permisos mínimos. Pages reintenta hasta tres veces con esperas acotadas (15 y 30 segundos); si GitHub sigue rechazando el artefacto, el job falla explícitamente.
+
+### Monitoreo complementario de portales
+
+El workflow `web-watch.yml` revisa cada seis horas páginas oficiales de SNICE, el feed RSS de ANAM, los enlaces del índice anual del SAT relacionados con RGCE (incluido su Anexo 22), NICO o clasificación arancelaria (siguiendo su redirección oficial), documentos RGCE/Anexo 22 y la portada de VUCEM. Guarda hashes, enlaces oficiales, listados observados y diffs en `data/web-watch/`; no ingiere contenido a `data/normalized/`, no descarga PDFs al repositorio ni emite conclusiones legales. El workflow falla si una fuente no responde o su formato cambia inesperadamente, en vez de reportar un falso “sin cambios”.
+
+```bash
+python3 -m dof_diff_lab.web_watch --root .
+```
+
+Los primeros resultados solo crean una línea base. Los cambios posteriores generan evidencia determinista y enlazan la fuente oficial. El feed ANAM estaba vacío al verificarlo; no se encontró un catálogo público estable de Anexo 22 en VUCEM ni una sección SAT independiente y verificable de criterios de clasificación arancelaria. Por eso se monitorean los documentos RGCE/Anexo 22 del SAT y la portada VUCEM, mientras que las publicaciones legales y criterios formalizados siguen cubiertos por el monitor primario del DOF. Ninguno de estos límites se presenta como cobertura completa.
 
 ## Límites de confianza
 
@@ -99,12 +109,13 @@ El flujo sincroniza las fuentes oficiales, construye el corpus, sube derivados v
 - Tavily queda fuera de la ruta de ingesta: solo localiza URL candidatas y se restringe a hosts oficiales.
 - Las etiquetas son coincidencias deterministas de reglas, no probabilidades ni conclusiones jurídicas.
 - No se conserva el HTML crudo (`raw_retained: false`); solo su hash.
+- El monitor complementario conserva metadatos, enlaces y hashes de fuentes oficiales, separados del catálogo DOF; no persiste HTML ni PDF de terceros.
 - Un día sin notas confirmado es `no_edition`; respuestas HTTP/MIME inesperadas son errores, para no confundir una falla de fuente con ausencia de publicación.
 
 ## Verificaciones
 
 ```bash
-for t in entrypoint monitor monitor_workflow public_readiness sources corpus discovery intelligence trade_watch repository_integrity site; do
+for t in entrypoint monitor monitor_workflow public_readiness sources corpus discovery intelligence trade_watch web_watch web_watch_workflow repository_integrity site; do
   python3 tests/check_$t.py
 done
 ```
