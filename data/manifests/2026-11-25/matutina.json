@@ -1,6 +1,6 @@
 {
   "edition": "matutina",
-  "generated_at": "2026-11-26T00:27:05+00:00",
+  "generated_at": "2026-11-26T04:10:15+00:00",
   "insights": {
     "by_document_type": {
       "acuerdo": 4,
@@ -41,8 +41,8 @@
     "http_status": 200,
     "index_url": "https://dof.gob.mx/index_113.php?year=2026&month=11&day=25",
     "raw_retained": false,
-    "raw_sha256": "5979cbd4d32ed4262654f296cf64beadb4ac09bacc170dfefebdd7af3790ba64",
-    "raw_size": 87438
+    "raw_sha256": "19cb4a2967e22366c21095b94c95f7661e881c0d0b575b62422ed84d7b6bb5e1",
+    "raw_size": 87879
   },
   "status": "no_change"
 }
